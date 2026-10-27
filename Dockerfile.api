@@ -1,0 +1,11 @@
+FROM python:3.11-slim
+WORKDIR /app
+ENV PYTHONUNBUFFERED=1 PYTHONPATH=/app/backend:/app/src
+COPY requirements-api.txt .
+RUN pip install --no-cache-dir -r requirements-api.txt
+# CPU-only torch is only needed for the U-Net method (large download). Build with --build-arg INSTALL_TORCH=1
+ARG INSTALL_TORCH=0
+RUN if [ "$INSTALL_TORCH" = "1" ]; then pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu; fi
+COPY . .
+EXPOSE 8000
+CMD ["sh", "-c", "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"]

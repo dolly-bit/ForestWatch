@@ -1,0 +1,21 @@
+:root { --bg:#0f172a; --panel:#111827; --line:#1f2937; --text:#e5e7eb; --muted:#9ca3af; --accent:#22c55e; --warn:#f59e0b; --bad:#ef4444; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+.app { display: grid; grid-template-columns: 340px 1fr; height: 100vh; }
+.side { background: var(--panel); border-right: 1px solid var(--line); padding: 16px; overflow-y: auto; display: flex; flex-direction: column; gap: 16px; }
+.map { position: relative; }
+.map > div { position: absolute; inset: 0; }
+h1 { font-size: 20px; margin: 0; } h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 0 0 8px; }
+.card { background: #0b1220; border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+label { font-size: 13px; color: var(--muted); }
+select, input[type=text], textarea { background: #0b1220; color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; width: 100%; }
+button { background: #1f2937; color: var(--text); border: 1px solid #374151; border-radius: 8px; padding: 8px 12px; cursor: pointer; }
+button:hover:enabled { border-color: var(--accent); } button:disabled { opacity: .5; cursor: not-allowed; }
+button.primary { background: #166534; border-color: #16a34a; } button.danger { background: #7f1d1d; border-color: #b91c1c; }
+.stat { display: grid; grid-template-columns: 1fr auto; gap: 4px; font-size: 14px; }
+.badge { padding: 2px 8px; border-radius: 999px; font-size: 12px; border: 1px solid var(--line); }
+.err { color: var(--bad); font-size: 13px; } .muted { color: var(--muted); font-size: 13px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; margin-right: 10px; font-size: 12px; color: var(--muted); }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+@media (max-width: 800px) { .app { grid-template-columns: 1fr; grid-template-rows: auto 60vh; height: auto; } }

@@ -1,0 +1,57 @@
+# ForestWatch Phase 1 configuration.
+# The bbox is a PLACEHOLDER near the Gurugram-Faridabad Aravalli belt.
+# Open it in QGIS/Copernicus Browser and adjust before downloading anything.
+region:
+  name: aravalli_ncr_demo
+  bbox: [77.10, 28.30, 77.30, 28.48]   # lon_min, lat_min, lon_max, lat_max (EPSG:4326)
+  crs: "EPSG:32643"                    # UTM zone 43N covers Delhi NCR
+  resolution_m: 10
+  output_crs: "EPSG:4326"              # CRS of exported polygons (web maps use lon/lat)
+
+stac:
+  url: "https://earth-search.aws.element84.com/v1"   # verify it is still current
+  collection: "sentinel-2-l2a"
+  max_cloud_cover: 30                                 # scene-level filter (percent)
+
+# Same-season windows: compare like with like to avoid seasonal false alarms.
+windows:
+  before: ["2022-10-15", "2022-12-15"]
+  after:  ["2024-10-15", "2024-12-15"]
+
+cloud_mask:
+  # Sentinel-2 SCL classes treated as usable: 4 vegetation, 5 bare, 6 water, 7 unclassified
+  valid_scl_classes: [4, 5, 6, 7]
+  min_valid_observations: 2            # per pixel, to accept a composite value
+
+baseline:
+  forest_ndvi_min: 0.40                # pixel must have been vegetated before
+  ndvi_drop_min: 0.25                  # minimum NDVI decrease to flag change
+  min_area_pixels: 10                  # minimum mapping unit (10 px = 0.1 ha at 10 m)
+
+split:
+  block_size_px: 128
+  group_blocks: 4                      # assign splits to 4x4-block tiles (keeps train data after buffering)
+  fractions: [0.6, 0.2, 0.2]           # train / validation / test
+  buffer_blocks: 1                     # gap between train and val/test blocks
+  seed: 42
+
+seasonal:
+  enabled: true
+  min_persistence: 0.6                 # share of clear 'after' dates that must show the drop
+  min_observations: 2
+
+model:
+  patch_size: 64
+  stride: 32
+  base_channels: 24
+  epochs: 40
+  batch_size: 16
+  lr: 0.001
+  positive_oversample: 4.0             # extra sampling weight for patches containing change
+  eval_every: 2                        # validate every N epochs
+  threshold_grid: [0.3, 0.4, 0.5, 0.6, 0.7]
+  seed: 42
+  checkpoint: models/unet_change.pt
+
+
+
