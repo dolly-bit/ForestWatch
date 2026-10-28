@@ -1,0 +1,121 @@
+{
+  "by_group": {
+    "column": "kept_by_seasonal",
+    "groups": {
+      "no": {
+        "ci95_wilson": [
+          0.35892909014821267,
+          0.9177828342909844
+        ],
+        "decided": 7,
+        "invalid": 0,
+        "n": 2,
+        "positive_rate_among_decided": 0.7142857142857143,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": 0.7142857142857143,
+        "rows": 7,
+        "sensitivity_to_unsure": {
+          "all_unsure_negative": 0.7142857142857143,
+          "all_unsure_positive": 0.7142857142857143
+        },
+        "unreviewed": 0,
+        "unsure": 0,
+        "y": 5
+      },
+      "yes": {
+        "ci95_wilson": [
+          0.632375118636542,
+          0.8599518740113747
+        ],
+        "decided": 51,
+        "invalid": 0,
+        "n": 12,
+        "positive_rate_among_decided": 0.7647058823529411,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": 0.7358490566037735,
+        "rows": 53,
+        "sensitivity_to_unsure": {
+          "all_unsure_negative": 0.7358490566037735,
+          "all_unsure_positive": 0.7735849056603774
+        },
+        "unreviewed": 0,
+        "unsure": 2,
+        "y": 39
+      }
+    },
+    "note": "Post-hoc subgroups of one sample (not pre-defined strata); small groups are imprecise."
+  },
+  "input": {
+    "path": "C:\\Users\\dolly_\\Desktop\\Projects\\forestwatch\\outputs\\review\\review.csv",
+    "sha256": "eca93c481bc02714ba1ec2c88c4a336781728a98f36ceb58d7791aeaf567b360"
+  },
+  "overall": {
+    "ci95_wilson": [
+      0.6346977437031315,
+      0.8504126027303373
+    ],
+    "decided": 58,
+    "invalid": 0,
+    "n": 14,
+    "positive_rate_among_decided": 0.7586206896551724,
+    "rate_among_all_reviewed_with_unsure_as_not_positive": 0.7333333333333333,
+    "rows": 60,
+    "sensitivity_to_unsure": {
+      "all_unsure_negative": 0.7333333333333333,
+      "all_unsure_positive": 0.7666666666666667
+    },
+    "unreviewed": 0,
+    "unsure": 2,
+    "y": 44
+  },
+  "population_estimate": {
+    "assumptions": [
+      "simple random sample from the stated population",
+      "reviewer verdicts treated as truth",
+      "'?' and unreviewed rows excluded",
+      "Wilson interval not adjusted for finite population"
+    ],
+    "decided_sample": 58,
+    "expected_positive_candidates": 1007.448275862069,
+    "expected_positive_candidates_ci95": [
+      842.8786036377586,
+      1129.3479364258878
+    ],
+    "finite_population_factor": 0.9782872626941745,
+    "population_size": 1328,
+    "sampling_fraction": 0.043674698795180725
+  },
+  "sampling": {
+    "eligible": 1328,
+    "kept_by_seasonal_total": 3264,
+    "method": "baseline",
+    "min_area_ha": 0.3,
+    "pages": 12,
+    "sampled": 60,
+    "seed": 0,
+    "total_candidates": 4150
+  },
+  "statement": "These are reviewer verdict statistics on a sample of candidate detections. They are not validated pixel-level precision or recall, and they cannot show how much real vegetation loss was missed.",
+  "validation": {
+    "duplicate_ids": [],
+    "errors": [],
+    "invalid_verdicts": [],
+    "missing_columns": [],
+    "missing_values": {
+      "area_ha": 0,
+      "id": 0,
+      "kept_by_seasonal": 0,
+      "lat": 0,
+      "lon": 0,
+      "mean_ndvi_drop": 0
+    },
+    "n_rows": 60,
+    "nonfinite_values": {
+      "area_ha": 0,
+      "lat": 0,
+      "lon": 0,
+      "mean_ndvi_drop": 0
+    },
+    "normalised_spellings": {},
+    "unique_ids": 60,
+    "warnings": []
+  }
+}

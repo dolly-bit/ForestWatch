@@ -1,0 +1,32 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "total candidates",
+      "passed": true,
+      "detail": "now 4150, recorded 4150"
+    },
+    {
+      "name": "eligible candidates",
+      "passed": true,
+      "detail": "now 1328, recorded 1328 (min area 0.3 ha)"
+    },
+    {
+      "name": "random sample re-drawn from recorded seed",
+      "passed": true,
+      "detail": "seed 0: identical id set"
+    },
+    {
+      "name": "area of every reviewed candidate",
+      "passed": true,
+      "detail": "all match"
+    },
+    {
+      "name": "kept_by_seasonal flag of every reviewed candidate",
+      "passed": true,
+      "detail": "all match"
+    }
+  ],
+  "candidates_now": 4150,
+  "method": "baseline"
+}

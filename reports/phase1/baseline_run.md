@@ -1,0 +1,30 @@
+# Baseline run record
+
+- Run ID: baseline-audit-1 (assigned retrospectively at audit time)
+- Run date/time (with timezone): Unknown (not logged). File modification times (UTC): review.csv 2026-10-26T08:11:33.464086+00:00; config 2026-10-26T08:37:40.122936+00:00
+- Git commit: ae0fc3eb5061bf8377238705b7c3401c05fa4bba on branch main, uncommitted changes: True
+- Command executed: Unknown (not logged for the original run). The review sheet came from scripts/make_review.py (see review_meta.json for its parameters).
+- Configuration file and version: configs/aravalli.yaml, sha256 5cceffc55dafb9fb376f66ae0cef164a4842d45df29faf7815f9e233fb47de90 (state at audit time)
+- Study-area boundary / bbox: [77.1, 28.3, 77.3, 28.48] (lon_min, lat_min, lon_max, lat_max, EPSG:4326)
+- Before window: 2022-10-15 to 2022-12-15
+- After window: 2024-10-15 to 2024-12-15
+- STAC catalog and collection: https://earth-search.aws.element84.com/v1 / sentinel-2-l2a (scene-level cloud filter < 30%)
+- Scene/item IDs used (from the stacks on disk; the STAC search itself was not logged):
+  - before: S2B_43RFM_20221016_0_L2A (2022-10-16), S2B_43RGM_20221016_0_L2A (2022-10-16), S2A_43RFM_20221021_0_L2A (2022-10-21), S2A_43RGM_20221021_0_L2A (2022-10-21), S2B_43RFM_20221026_0_L2A (2022-10-26), S2B_43RGM_20221026_0_L2A (2022-10-26), S2A_43RFM_20221031_0_L2A (2022-10-31), S2A_43RGM_20221031_0_L2A (2022-10-31), S2B_43RFM_20221105_0_L2A (2022-11-05), S2B_43RGM_20221105_0_L2A (2022-11-05), S2A_43RFM_20221110_0_L2A (2022-11-10), S2A_43RGM_20221110_0_L2A (2022-11-10), S2B_43RFM_20221115_0_L2A (2022-11-15), S2B_43RGM_20221115_0_L2A (2022-11-15), S2A_43RFM_20221120_0_L2A (2022-11-20), S2A_43RGM_20221120_0_L2A (2022-11-20), S2B_43RFM_20221125_0_L2A (2022-11-25), S2B_43RGM_20221125_0_L2A (2022-11-25), S2A_43RFM_20221130_0_L2A (2022-11-30), S2A_43RGM_20221130_0_L2A (2022-11-30), S2B_43RFM_20221205_0_L2A (2022-12-05), S2B_43RGM_20221205_0_L2A (2022-12-05), S2A_43RFM_20221210_0_L2A (2022-12-10), S2A_43RGM_20221210_0_L2A (2022-12-10), S2B_43RFM_20221215_0_L2A (2022-12-15), S2B_43RGM_20221215_0_L2A (2022-12-15)
+  - after: S2B_43RFM_20241015_0_L2A (2024-10-15), S2B_43RGM_20241015_0_L2A (2024-10-15), S2A_43RFM_20241020_0_L2A (2024-10-20), S2A_43RGM_20241020_0_L2A (2024-10-20), S2B_43RFM_20241025_0_L2A (2024-10-25), S2B_43RGM_20241025_0_L2A (2024-10-25), S2A_43RFM_20241030_0_L2A (2024-10-30), S2A_43RGM_20241030_0_L2A (2024-10-30), S2C_43RFM_20241030_1_L2A (2024-10-30), S2C_43RGM_20241030_1_L2A (2024-10-30), S2B_43RFM_20241104_0_L2A (2024-11-04), S2B_43RGM_20241104_0_L2A (2024-11-04), S2A_43RFM_20241109_0_L2A (2024-11-09), S2A_43RGM_20241109_0_L2A (2024-11-09), S2C_43RFM_20241109_1_L2A (2024-11-09), S2C_43RGM_20241109_1_L2A (2024-11-09), S2B_43RFM_20241114_0_L2A (2024-11-14), S2B_43RGM_20241114_0_L2A (2024-11-14), S2A_43RFM_20241119_0_L2A (2024-11-19), S2C_43RFM_20241119_1_L2A (2024-11-19), S2B_43RFM_20241124_0_L2A (2024-11-24), S2B_43RGM_20241124_0_L2A (2024-11-24), S2A_43RFM_20241129_0_L2A (2024-11-29), S2A_43RGM_20241129_0_L2A (2024-11-29), S2B_43RFM_20241204_0_L2A (2024-12-04), S2B_43RGM_20241204_0_L2A (2024-12-04), S2A_43RFM_20241209_0_L2A (2024-12-09), S2A_43RGM_20241209_0_L2A (2024-12-09), S2C_43RFM_20241209_1_L2A (2024-12-09), S2C_43RGM_20241209_1_L2A (2024-12-09), S2B_43RFM_20241214_0_L2A (2024-12-14), S2B_43RGM_20241214_0_L2A (2024-12-14)
+- Cloud/shadow filtering method: Sentinel-2 SCL classes [4, 5, 6, 7] treated as valid, invalid areas dilated by 1 pixel (8-connected)
+- Composite method: per-pixel median over clear dates in each window; at least 2 clear observations required
+- CRS and pixel resolution: EPSG:32643, 10 m
+- NDVI formula and bands: NDVI = (NIR - Red) / (NIR + Red) using catalog asset keys 'nir' and 'red' (expected Sentinel-2 B08 and B04; verify against the catalog); reflectance scaled with the 2022 offset rule
+- NDVI-drop/change threshold: drop >= 0.25 and pre-change NDVI >= 0.4
+- Seasonal persistence settings: enabled=True, drop must appear on >= 0.6 of clear 'after' dates, >= 2 observations (the review sample was drawn from candidates BEFORE this filter; each candidate's kept/removed flag was computed afterwards)
+- Minimum region size / area filter: 10 pixels (about 0.10 ha); review sampling used its own minimum area (see review_meta.json)
+- Input files: 58 stack file(s) in data/stacks/ (see artifact_inventory.csv); grid check: OK (58 stacks share one grid)
+- Output files: outputs/review/review.csv, review_meta.json, review pages, overview.png
+- Software versions: numpy 2.5.4, scipy 1.18.1, scikit-image 0.26.0, matplotlib 3.11.2, PyYAML 6.0.3, rasterio 1.5.2, pyproj 3.8.0, pystac-client 0.9.1, torch not installed
+- Known warnings or manual interventions:
+  - configs/aravalli.yaml was modified AFTER review.csv was created: the current config may not be the one that produced the reviewed candidates (see reproduction check).
+  - The git working tree has uncommitted changes; the commit hash does not fully describe the code.
+  - Verdicts were entered by hand; see labeling_protocol.md
+  - Post-hoc analyses on the same labels (farmland cluster, cropland mask, radar check) are listed in known_limitations.md
+- Reproduction check: PASS (details in reproduction_check.json)

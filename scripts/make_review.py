@@ -5,7 +5,7 @@
 Then open outputs/review/review_page_01.png ... and fill the 'verdict' column of outputs/review/review.csv
 (y = real vegetation clearing, n = not, ? = unsure). Finally run scripts/score_review.py.
 """
-import argparse, sys
+import argparse, csv, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from forestwatch.config import load_config
@@ -16,10 +16,20 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--n", type=int, default=60)
 ap.add_argument("--method", choices=["baseline", "unet"], default="baseline")
 ap.add_argument("--seed", type=int, default=0)
+ap.add_argument("--out-dir", default=None, help="default: outputs/review")
+ap.add_argument("--force", action="store_true", help="overwrite a review sheet even if it already has verdicts")
 ap.add_argument("--min-area-ha", type=float, default=0.3, help="only review candidates at least this big (easier to see)")
 args = ap.parse_args()
+out_dir = Path(args.out_dir) if args.out_dir else ROOT / "outputs" / "review"
+existing = out_dir / "review.csv"
+if existing.exists() and not args.force:
+    with open(existing, newline="", encoding="utf-8-sig") as f:
+        labelled = sum(1 for r in csv.DictReader(f) if (r.get("verdict") or "").strip())
+    if labelled:
+        sys.exit(f"REFUSING to overwrite {existing}: it already contains {labelled} verdicts.\n"
+                 "Use --out-dir <new folder> for a fresh sample (recommended), or --force to replace it.")
 cfg = load_config(ROOT / "configs" / "aravalli.yaml")
-meta = build_review(cfg, ROOT, ROOT / "outputs" / "review", args.method, args.n, args.seed, min_area_ha=args.min_area_ha)
+meta = build_review(cfg, ROOT, out_dir, args.method, args.n, args.seed, min_area_ha=args.min_area_ha)
 print(meta)
 print("Check each one: click its maps_link in review.csv (satellite photo), compare with the picture.")
 print("Next: open outputs/review/review_page_01.png, then fill the 'verdict' column in outputs/review/review.csv")

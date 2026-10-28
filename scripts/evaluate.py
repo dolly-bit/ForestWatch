@@ -6,6 +6,7 @@ import numpy as np
 from forestwatch.config import load_config
 from forestwatch.pipeline import run_pipeline, split_maps
 from forestwatch.preprocess.splits import TEST
+from forestwatch.eval.grids import check_same_shape
 from forestwatch.eval.metrics import pixel_metrics, polygon_metrics, block_bootstrap_f1
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,6 +26,7 @@ else:
 results = {}
 for name, method, seas in runs:
     res = run_pipeline(cfg, ROOT, method, seasonal=seas)
+    check_same_shape("label raster", labels, "prediction", res["mask"])
     truth = labels & res["valid"]
     split, blocks = split_maps(cfg, truth.shape)
     region = split == TEST
