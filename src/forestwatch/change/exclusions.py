@@ -5,6 +5,7 @@ Config (all optional):
   exclusions:
     landcover_file: data/landcover/landcover_grid.npy   # made by scripts/prepare_landcover.py
     exclude_classes: [40]                               # ESA WorldCover: 40 = cropland
+    include_only_classes: [10, 20]                      # optional: ignore everything EXCEPT these (e.g. tree, shrub)
     exclude_boxes: [[lon_min, lat_min, lon_max, lat_max]]   # manual stopgap; disclose it in your report
 Lon/lat conversions need pyproj.
 """
@@ -46,7 +47,10 @@ def exclusion_mask(cfg: dict, root, meta: dict, shape) -> np.ndarray:
         arr = np.load(path)
         if arr.shape != tuple(shape):
             raise ValueError(f"Land-cover grid {arr.shape} does not match the stack grid {tuple(shape)}")
-        out |= np.isin(arr, ex.get("exclude_classes", [40]))
+        if ex.get("exclude_classes"):
+            out |= np.isin(arr, ex["exclude_classes"])
+        if ex.get("include_only_classes"):
+            out |= ~np.isin(arr, ex["include_only_classes"])
     for box in ex.get("exclude_boxes") or []:
         rs, cs = box_to_slices(box, tuple(meta["transform"]), meta["crs"], shape)
         out[rs, cs] = True

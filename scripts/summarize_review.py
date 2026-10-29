@@ -22,6 +22,7 @@ ap.add_argument("--out-dir", default=str(ROOT / "reports" / "phase1"))
 ap.add_argument("--meta", default=None, help="review_meta.json (default: next to the input file, if present)")
 ap.add_argument("--population-size", type=int, default=None, help="size of the sampling frame, if known")
 ap.add_argument("--group-by", default="kept_by_seasonal")
+ap.add_argument("--verdict-column", default="verdict", help="column holding the verdicts to summarise (e.g. verdict_v2)")
 ap.add_argument("--stamp", action="store_true", help="add a generated_at time (makes output non-reproducible byte-for-byte)")
 ap.add_argument("--init-annotations", default=None, metavar="PATH", help="also create an audit-trail template at PATH")
 args = ap.parse_args()
@@ -30,6 +31,12 @@ try:
     rows, cols = read_review_csv(args.input)
 except ReviewInputError as e:
     sys.exit(f"ERROR: {e}")
+if args.verdict_column != "verdict":
+    if args.verdict_column not in cols:
+        sys.exit(f"ERROR: column '{args.verdict_column}' not found in {args.input}")
+    rows = [{**r, "verdict": r.get(args.verdict_column, "")} for r in rows]
+    if "verdict" not in cols:
+        cols.append("verdict")
 meta_path = Path(args.meta) if args.meta else Path(args.input).with_name("review_meta.json")
 meta = json.loads(meta_path.read_text()) if meta_path.exists() else None
 summary = summarize(rows, cols, meta, args.population_size, args.group_by, args.input,

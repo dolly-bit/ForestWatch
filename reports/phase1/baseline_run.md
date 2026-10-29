@@ -2,7 +2,7 @@
 
 - Run ID: baseline-audit-1 (assigned retrospectively at audit time)
 - Run date/time (with timezone): Unknown (not logged). File modification times (UTC): review.csv 2026-10-26T08:11:33.464086+00:00; config 2026-10-26T08:37:40.122936+00:00
-- Git commit: ae0fc3eb5061bf8377238705b7c3401c05fa4bba on branch main, uncommitted changes: True
+- Git commit: 554e153afa47c7f8f86d45db6c3c71d9d3765e3f on branch main, uncommitted changes: True
 - Command executed: Unknown (not logged for the original run). The review sheet came from scripts/make_review.py (see review_meta.json for its parameters).
 - Configuration file and version: configs/aravalli.yaml, sha256 5cceffc55dafb9fb376f66ae0cef164a4842d45df29faf7815f9e233fb47de90 (state at audit time)
 - Study-area boundary / bbox: [77.1, 28.3, 77.3, 28.48] (lon_min, lat_min, lon_max, lat_max, EPSG:4326)

@@ -120,7 +120,7 @@ def build_review(cfg, root, out_dir, method="baseline", n=60, seed=0, per_page=5
         items.append((cid, (r0, r1, c0, c1), row,
                       float(np.nanmean(nd_b[sl][comp])), float(np.nanmean(nd_a[sl][comp]))))
 
-    cmap = matplotlib.colormaps["RdYlGn"].copy(); cmap.set_bad("#cccccc")
+    cmap = matplotlib.colormaps["RdYlGn"].with_extremes(bad="#cccccc")
     show_b, show_a = np.ma.masked_invalid(nd_b), np.ma.masked_invalid(nd_a)
     n_pages = math.ceil(len(items) / per_page)
     for p in range(n_pages):
@@ -205,3 +205,23 @@ def rescore_with_exclusions(csv_path, excluded: np.ndarray, transform, crs) -> d
             "dropped_by_mask": {"n": len(dropped),
                                 "real": sum(normalize_verdict(r["verdict"]) == "y" for r in dropped),
                                 "not_real": sum(normalize_verdict(r["verdict"]) == "n" for r in dropped)}}
+
+
+def landcover_breakdown(csv_path, grid: np.ndarray, transform, crs) -> dict:
+    """For every judged row, look up the land-cover class under its centre.
+    Returns {class: {"n", "real", "not_real"}}; class -1 means outside the grid."""
+    from .change.exclusions import lonlat_to_rowcol
+    with open(csv_path, newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+    H, W = grid.shape
+    out: dict = {}
+    for r in rows:
+        v = normalize_verdict(r.get("verdict"))
+        if v not in ("y", "n") or not r.get("lat"):
+            continue
+        row, col = lonlat_to_rowcol(float(r["lon"]), float(r["lat"]), transform, crs)
+        cls = int(grid[row, col]) if (0 <= row < H and 0 <= col < W) else -1
+        d = out.setdefault(cls, {"n": 0, "real": 0, "not_real": 0})
+        d["n"] += 1
+        d["real" if v == "y" else "not_real"] += 1
+    return out

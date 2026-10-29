@@ -90,3 +90,29 @@ def test_rescore_drops_rows_inside_mask():
             sys.modules.pop("pyproj", None)
         else:
             sys.modules["pyproj"] = saved
+
+
+def test_include_only_classes_and_landcover_breakdown():
+    from forestwatch.review import landcover_breakdown
+    meta = {"transform": list(TRANSFORM), "crs": CRS}
+    lc = np.full((100, 100), 10, "uint8"); lc[:, 50:] = 40
+    with tempfile.TemporaryDirectory() as tmp:
+        np.save(Path(tmp) / "lc.npy", lc)
+        cfg = {"exclusions": {"landcover_file": "lc.npy", "include_only_classes": [10, 20]}}
+        m = exclusion_mask(cfg, tmp, meta, (100, 100))
+        assert not m[:, :50].any() and m[:, 50:].all()
+    saved = sys.modules.get("pyproj"); sys.modules["pyproj"] = _stub_pyproj()
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / "r.csv"
+            with open(p, "w", newline="") as f:
+                w = csv.writer(f); w.writerow(["id", "lat", "lon", "verdict"])
+                for i, (col, v) in enumerate([(10, "y"), (20, "n"), (70, "y"), (80, "y"), (90, "n")]):
+                    w.writerow([i, 28.005, 77.0 + col * 1e-4, v])
+            r = landcover_breakdown(p, lc, TRANSFORM, CRS)
+        assert r == {10: {"n": 2, "real": 1, "not_real": 1}, 40: {"n": 3, "real": 2, "not_real": 1}}
+    finally:
+        if saved is None:
+            sys.modules.pop("pyproj", None)
+        else:
+            sys.modules["pyproj"] = saved

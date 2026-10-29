@@ -1,0 +1,139 @@
+{
+  "by_group": {
+    "column": "landcover_name",
+    "groups": {
+      "bare/sparse": {
+        "ci95_wilson": null,
+        "decided": 0,
+        "invalid": 0,
+        "n": 0,
+        "positive_rate_among_decided": null,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "rows": 1,
+        "sensitivity_to_unsure": null,
+        "unreviewed": 1,
+        "unsure": 0,
+        "y": 0
+      },
+      "built-up": {
+        "ci95_wilson": null,
+        "decided": 0,
+        "invalid": 0,
+        "n": 0,
+        "positive_rate_among_decided": null,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "rows": 5,
+        "sensitivity_to_unsure": null,
+        "unreviewed": 5,
+        "unsure": 0,
+        "y": 0
+      },
+      "cropland": {
+        "ci95_wilson": null,
+        "decided": 0,
+        "invalid": 0,
+        "n": 0,
+        "positive_rate_among_decided": null,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "rows": 44,
+        "sensitivity_to_unsure": null,
+        "unreviewed": 44,
+        "unsure": 0,
+        "y": 0
+      },
+      "grassland": {
+        "ci95_wilson": null,
+        "decided": 0,
+        "invalid": 0,
+        "n": 0,
+        "positive_rate_among_decided": null,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "rows": 4,
+        "sensitivity_to_unsure": null,
+        "unreviewed": 4,
+        "unsure": 0,
+        "y": 0
+      },
+      "shrubland": {
+        "ci95_wilson": null,
+        "decided": 0,
+        "invalid": 0,
+        "n": 0,
+        "positive_rate_among_decided": null,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "rows": 2,
+        "sensitivity_to_unsure": null,
+        "unreviewed": 2,
+        "unsure": 0,
+        "y": 0
+      },
+      "tree cover": {
+        "ci95_wilson": null,
+        "decided": 0,
+        "invalid": 0,
+        "n": 0,
+        "positive_rate_among_decided": null,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "rows": 4,
+        "sensitivity_to_unsure": null,
+        "unreviewed": 4,
+        "unsure": 0,
+        "y": 0
+      }
+    },
+    "note": "Post-hoc subgroups of one sample (not pre-defined strata); small groups are imprecise."
+  },
+  "input": {
+    "path": "data/labels/review_v2.csv",
+    "sha256": "6a58938fbb7c7a6d20744716c53741b9a18cd505375fe6c1c8844e5d39597a36"
+  },
+  "overall": {
+    "ci95_wilson": null,
+    "decided": 0,
+    "invalid": 0,
+    "n": 0,
+    "positive_rate_among_decided": null,
+    "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+    "rows": 60,
+    "sensitivity_to_unsure": null,
+    "unreviewed": 60,
+    "unsure": 0,
+    "y": 0
+  },
+  "population_estimate": null,
+  "sampling": {
+    "eligible": 1328,
+    "kept_by_seasonal_total": 3264,
+    "method": "baseline",
+    "min_area_ha": 0.3,
+    "pages": 12,
+    "sampled": 60,
+    "seed": 0,
+    "total_candidates": 4150
+  },
+  "statement": "These are reviewer verdict statistics on a sample of candidate detections. They are not validated pixel-level precision or recall, and they cannot show how much real vegetation loss was missed.",
+  "validation": {
+    "duplicate_ids": [],
+    "errors": [],
+    "invalid_verdicts": [],
+    "missing_columns": [],
+    "missing_values": {
+      "area_ha": 0,
+      "id": 0,
+      "kept_by_seasonal": 0,
+      "lat": 0,
+      "lon": 0,
+      "mean_ndvi_drop": 0
+    },
+    "n_rows": 60,
+    "nonfinite_values": {
+      "area_ha": 0,
+      "lat": 0,
+      "lon": 0,
+      "mean_ndvi_drop": 0
+    },
+    "normalised_spellings": {},
+    "unique_ids": 60,
+    "warnings": []
+  }
+}
