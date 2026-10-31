@@ -87,3 +87,18 @@ def test_ndvi_by_class_uses_no_labels_and_reports_detector_bias():
     assert rows["cropland"]["share_ndvi_at_least_threshold"] == 1.0 and rows["cropland"]["share_of_all_detections"] == 1.0
     assert abs(rows["cropland"]["flagged_share_of_class"] - 4 / 50) < 1e-9
     assert abs(rows["cropland"]["median_ndvi_before"] - 0.7) < 1e-6
+
+
+def test_compare_passes_known_table_and_kappa():
+    from forestwatch.readjudication import compare_passes
+    pairs = [("y", "y")] * 3 + [("y", "n")] * 2 + [("n", "y")] * 1 + [("n", "n")] * 4 + [("y", "?"), ("", "n")]
+    rows = [{"id": str(i), "verdict": a, "verdict_v2": b, "change_type": "crop_cycle_or_field_change",
+             "landcover_name": "cropland"} for i, (a, b) in enumerate(pairs)]
+    r = compare_passes(rows)
+    assert r["n_both_decided"] == 10 and r["skipped_unsure_or_blank"] == 2
+    assert r["table"] == {"first_y_second_y": 3, "first_y_second_n": 2, "first_n_second_y": 1, "first_n_second_n": 4}
+    assert abs(r["agreement"] - 0.7) < 1e-12 and abs(r["kappa"] - 0.4) < 1e-12
+    assert len(r["disagreements"]) == 3
+    assert compare_passes([])["agreement"] is None
+    perfect = compare_passes([{"id": "1", "verdict": "y", "verdict_v2": "y"}, {"id": "2", "verdict": "y", "verdict_v2": "y"}])
+    assert perfect["kappa"] is None                               # everyone same label: kappa undefined, no crash

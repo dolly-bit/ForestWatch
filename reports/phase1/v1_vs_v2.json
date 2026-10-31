@@ -1,0 +1,203 @@
+{
+  "n_both_decided": 57,
+  "skipped_unsure_or_blank": 3,
+  "table": {
+    "first_y_second_y": 19,
+    "first_y_second_n": 24,
+    "first_n_second_y": 3,
+    "first_n_second_n": 11
+  },
+  "agreement": 0.5263157894736842,
+  "kappa": 0.15113072255929394,
+  "disagreements": [
+    {
+      "id": "10",
+      "first": "n",
+      "second": "y",
+      "change_type": "construction_or_road",
+      "landcover": "cropland"
+    },
+    {
+      "id": "103",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "137",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "168",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "787",
+      "first": "n",
+      "second": "y",
+      "change_type": "natural_vegetation_loss",
+      "landcover": "built-up"
+    },
+    {
+      "id": "1200",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "1780",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "2639",
+      "first": "n",
+      "second": "y",
+      "change_type": "natural_vegetation_loss",
+      "landcover": "shrubland"
+    },
+    {
+      "id": "2712",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "2793",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "2825",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "2873",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "2964",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3040",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3211",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3243",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3335",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3366",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3399",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3441",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3516",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3545",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3587",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3723",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3937",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "3978",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    },
+    {
+      "id": "4123",
+      "first": "y",
+      "second": "n",
+      "change_type": "crop_cycle_or_field_change",
+      "landcover": "cropland"
+    }
+  ]
+}

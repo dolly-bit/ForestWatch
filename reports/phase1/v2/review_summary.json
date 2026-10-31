@@ -3,104 +3,162 @@
     "column": "landcover_name",
     "groups": {
       "bare/sparse": {
-        "ci95_wilson": null,
-        "decided": 0,
+        "ci95_wilson": [
+          0.20654329147389294,
+          1.0
+        ],
+        "decided": 1,
         "invalid": 0,
         "n": 0,
-        "positive_rate_among_decided": null,
-        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "positive_rate_among_decided": 1.0,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": 1.0,
         "rows": 1,
-        "sensitivity_to_unsure": null,
-        "unreviewed": 1,
+        "sensitivity_to_unsure": {
+          "all_unsure_negative": 1.0,
+          "all_unsure_positive": 1.0
+        },
+        "unreviewed": 0,
         "unsure": 0,
-        "y": 0
+        "y": 1
       },
       "built-up": {
-        "ci95_wilson": null,
-        "decided": 0,
+        "ci95_wilson": [
+          0.5655085052479191,
+          1.0
+        ],
+        "decided": 5,
         "invalid": 0,
         "n": 0,
-        "positive_rate_among_decided": null,
-        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "positive_rate_among_decided": 1.0,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": 1.0,
         "rows": 5,
-        "sensitivity_to_unsure": null,
-        "unreviewed": 5,
+        "sensitivity_to_unsure": {
+          "all_unsure_negative": 1.0,
+          "all_unsure_positive": 1.0
+        },
+        "unreviewed": 0,
         "unsure": 0,
-        "y": 0
+        "y": 5
       },
       "cropland": {
-        "ci95_wilson": null,
-        "decided": 0,
+        "ci95_wilson": [
+          0.16346223395491324,
+          0.41849154685509304
+        ],
+        "decided": 44,
         "invalid": 0,
-        "n": 0,
-        "positive_rate_among_decided": null,
-        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "n": 32,
+        "positive_rate_among_decided": 0.2727272727272727,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": 0.2727272727272727,
         "rows": 44,
-        "sensitivity_to_unsure": null,
-        "unreviewed": 44,
+        "sensitivity_to_unsure": {
+          "all_unsure_negative": 0.2727272727272727,
+          "all_unsure_positive": 0.2727272727272727
+        },
+        "unreviewed": 0,
         "unsure": 0,
-        "y": 0
+        "y": 12
       },
       "grassland": {
-        "ci95_wilson": null,
-        "decided": 0,
+        "ci95_wilson": [
+          0.15003570882017148,
+          0.8499642911798285
+        ],
+        "decided": 4,
         "invalid": 0,
-        "n": 0,
-        "positive_rate_among_decided": null,
-        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "n": 2,
+        "positive_rate_among_decided": 0.5,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": 0.5,
         "rows": 4,
-        "sensitivity_to_unsure": null,
-        "unreviewed": 4,
+        "sensitivity_to_unsure": {
+          "all_unsure_negative": 0.5,
+          "all_unsure_positive": 0.5
+        },
+        "unreviewed": 0,
         "unsure": 0,
-        "y": 0
+        "y": 2
       },
       "shrubland": {
-        "ci95_wilson": null,
-        "decided": 0,
+        "ci95_wilson": [
+          0.09452865480086614,
+          0.9054713451991339
+        ],
+        "decided": 2,
         "invalid": 0,
-        "n": 0,
-        "positive_rate_among_decided": null,
-        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "n": 1,
+        "positive_rate_among_decided": 0.5,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": 0.5,
         "rows": 2,
-        "sensitivity_to_unsure": null,
-        "unreviewed": 2,
+        "sensitivity_to_unsure": {
+          "all_unsure_negative": 0.5,
+          "all_unsure_positive": 0.5
+        },
+        "unreviewed": 0,
         "unsure": 0,
-        "y": 0
+        "y": 1
       },
       "tree cover": {
-        "ci95_wilson": null,
-        "decided": 0,
+        "ci95_wilson": [
+          0.2076549551264879,
+          0.9385096847238394
+        ],
+        "decided": 3,
         "invalid": 0,
-        "n": 0,
-        "positive_rate_among_decided": null,
-        "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+        "n": 1,
+        "positive_rate_among_decided": 0.6666666666666666,
+        "rate_among_all_reviewed_with_unsure_as_not_positive": 0.5,
         "rows": 4,
-        "sensitivity_to_unsure": null,
-        "unreviewed": 4,
-        "unsure": 0,
-        "y": 0
+        "sensitivity_to_unsure": {
+          "all_unsure_negative": 0.5,
+          "all_unsure_positive": 0.75
+        },
+        "unreviewed": 0,
+        "unsure": 1,
+        "y": 2
       }
     },
     "note": "Post-hoc subgroups of one sample (not pre-defined strata); small groups are imprecise."
   },
   "input": {
     "path": "data/labels/review_v2.csv",
-    "sha256": "6a58938fbb7c7a6d20744716c53741b9a18cd505375fe6c1c8844e5d39597a36"
+    "sha256": "4b14daa6234d483633e86e32107b53608d7ff3261ed3f4b19dbf0e4df917e0ea"
   },
   "overall": {
-    "ci95_wilson": null,
-    "decided": 0,
+    "ci95_wilson": [
+      0.2757917606558441,
+      0.5173389043813288
+    ],
+    "decided": 59,
     "invalid": 0,
-    "n": 0,
-    "positive_rate_among_decided": null,
-    "rate_among_all_reviewed_with_unsure_as_not_positive": null,
+    "n": 36,
+    "positive_rate_among_decided": 0.3898305084745763,
+    "rate_among_all_reviewed_with_unsure_as_not_positive": 0.38333333333333336,
     "rows": 60,
-    "sensitivity_to_unsure": null,
-    "unreviewed": 60,
-    "unsure": 0,
-    "y": 0
+    "sensitivity_to_unsure": {
+      "all_unsure_negative": 0.38333333333333336,
+      "all_unsure_positive": 0.4
+    },
+    "unreviewed": 0,
+    "unsure": 1,
+    "y": 23
   },
-  "population_estimate": null,
+  "population_estimate": {
+    "assumptions": [
+      "simple random sample from the stated population",
+      "reviewer verdicts treated as truth",
+      "'?' and unreviewed rows excluded",
+      "Wilson interval not adjusted for finite population"
+    ],
+    "decided_sample": 59,
+    "expected_positive_candidates": 517.6949152542373,
+    "expected_positive_candidates_ci95": [
+      366.25145815096096,
+      687.0260650184047
+    ],
+    "finite_population_factor": 0.9779020343812683,
+    "population_size": 1328,
+    "sampling_fraction": 0.04442771084337349
+  },
   "sampling": {
     "eligible": 1328,
     "kept_by_seasonal_total": 3264,

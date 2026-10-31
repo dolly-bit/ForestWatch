@@ -87,3 +87,30 @@ def merge(original_rows, sheet_rows, landcover_classes=None, class_names=None) -
             row[c] = s.get(c, "")
         merged.append(row)
     return merged, columns + extra
+
+
+def compare_passes(rows, first: str = "verdict", second: str = "verdict_v2") -> dict:
+    """Agreement between two labelling passes on rows decided (y/n) in BOTH. Cohen's kappa corrects for chance."""
+    pairs, skipped, disagreements = [], 0, []
+    for r in rows:
+        a, b = classify_verdict(r.get(first)), classify_verdict(r.get(second))
+        if a in ("y", "n") and b in ("y", "n"):
+            pairs.append((a, b))
+            if a != b:
+                disagreements.append({"id": r.get("id"), "first": a, "second": b,
+                                      "change_type": r.get("change_type", ""), "landcover": r.get("landcover_name", "")})
+        else:
+            skipped += 1
+    n = len(pairs)
+    yy = sum(1 for a, b in pairs if a == "y" and b == "y")
+    yn = sum(1 for a, b in pairs if a == "y" and b == "n")
+    ny = sum(1 for a, b in pairs if a == "n" and b == "y")
+    nn = sum(1 for a, b in pairs if a == "n" and b == "n")
+    out = {"n_both_decided": n, "skipped_unsure_or_blank": skipped,
+           "table": {"first_y_second_y": yy, "first_y_second_n": yn, "first_n_second_y": ny, "first_n_second_n": nn},
+           "agreement": (yy + nn) / n if n else None, "kappa": None, "disagreements": disagreements}
+    if n:
+        po = (yy + nn) / n
+        pe = ((yy + yn) / n) * ((yy + ny) / n) + ((ny + nn) / n) * ((yn + nn) / n)
+        out["kappa"] = (po - pe) / (1 - pe) if pe < 1 else None
+    return out
