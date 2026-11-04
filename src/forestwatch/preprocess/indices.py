@@ -8,10 +8,18 @@ import numpy as np
 BASELINE_04_START = date(2022, 1, 25)
 
 
-def scale_reflectance(dn: np.ndarray, acquisition: date, quantification: float = 10000.0) -> np.ndarray:
-    offset = -1000.0 if acquisition >= BASELINE_04_START else 0.0
+def scale_reflectance(dn: np.ndarray, acquisition: date, quantification: float = 10000.0,
+                      offset_dn: float | None = None) -> np.ndarray:
+    """DN -> reflectance. `offset_dn` (in DN units, e.g. -1000) overrides the date rule when given."""
+    offset = offset_dn if offset_dn is not None else (-1000.0 if acquisition >= BASELINE_04_START else 0.0)
     ref = (dn.astype("float32") + offset) / quantification
     return np.clip(ref, 0.0, 1.5)
+
+
+def scale_with_catalog(dn: np.ndarray, scale: float, offset: float) -> np.ndarray:
+    """reflectance = DN * scale + offset, exactly as the STAC raster:bands metadata of the asset states
+    (typically scale 0.0001, offset -0.1 or 0)."""
+    return np.clip(dn.astype("float32") * np.float32(scale) + np.float32(offset), 0.0, 1.5)
 
 
 def _norm_diff(a: np.ndarray, b: np.ndarray) -> np.ndarray:

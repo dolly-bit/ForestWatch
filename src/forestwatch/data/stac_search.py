@@ -22,9 +22,17 @@ def search_scenes(bbox, start, end, url, collection="sentinel-2-l2a", max_cloud=
             continue
         scenes.append({"id": item.id, "datetime": item.datetime.isoformat(),
                        "cloud_cover": item.properties.get("eo:cloud_cover"),
-                       "assets": {k: item.assets[k].href for k in ASSET_KEYS}})
+                       "assets": {k: item.assets[k].href for k in ASSET_KEYS},
+                       "raster": {k: _raster_info(item.assets[k]) for k in ASSET_KEYS if k != "scl"}})
     scenes.sort(key=lambda s: s["datetime"])
     return scenes
+
+
+def _raster_info(asset) -> dict:
+    """scale/offset the catalog itself declares for this band (empty if it declares none)."""
+    bands = (asset.extra_fields or {}).get("raster:bands") or []
+    b = bands[0] if bands else {}
+    return {k: float(b[k]) for k in ("scale", "offset") if k in b}
 
 
 def save_catalog(scenes, path):

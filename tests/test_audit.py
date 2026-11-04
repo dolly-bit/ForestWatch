@@ -95,3 +95,19 @@ def test_stack_metadata_inventory_and_run_manifest():
         assert len(m["scenes"]) == 7 and m["extra"] == {"n": 1}
         with pytest.raises(FileExistsError):
             write_run_manifest(tmp, cfg_path, rid)                   # runs are never overwritten
+
+
+def test_hazy_date_flagging():
+    from forestwatch.audit import flag_hazy_dates
+    rows = []
+    for k in range(8):                                               # normal dates
+        rows.append({"window": "before", "date": f"2022-10-{10 + k:02d}", "valid_share": 0.99, "red_median": 0.08, "ndvi_median": 0.50})
+    rows.append({"window": "before", "date": "2022-11-01", "valid_share": 0.99, "red_median": 0.16, "ndvi_median": 0.25})   # smog
+    rows.append({"window": "before", "date": "2022-11-02", "valid_share": 0.20, "red_median": 0.30, "ndvi_median": 0.05})   # mostly cloud: ignored
+    rows.append({"window": "after", "date": "2024-11-01", "valid_share": 0.99, "red_median": 0.30, "ndvi_median": 0.10})
+    rows.append({"window": "after", "date": "2024-11-06", "valid_share": 0.99, "red_median": 0.08, "ndvi_median": 0.50})
+    out = {(d["window"], d["date"]): d for d in flag_hazy_dates(rows)}
+    assert out[("before", "2022-11-01")]["hazy"] is True
+    assert all(out[("before", f"2022-10-{10 + k:02d}")]["hazy"] is False for k in range(8))
+    assert ("before", "2022-11-02") not in out                       # too little clear imagery to judge
+    assert all(d["hazy"] is None for k, d in out.items() if k[0] == "after")      # only 2 dates: cannot judge

@@ -196,3 +196,33 @@ def write_run_manifest(root, cfg_path, run_id: str, extra: dict | None = None) -
                 "extra": extra or {}}
     (out / "manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True))
     return out
+
+
+def flag_hazy_dates(rows, ndvi_drop: float = 0.10, red_rise: float = 0.03, min_valid: float = 0.5) -> list[dict]:
+    """Per acquisition date, flag dates that look hazy compared with the rest of their window.
+
+    rows: one dict per scene with window, date, valid_share, red_median, ndvi_median.
+    Only scenes with at least `min_valid` clear pixels are used. A date is flagged (hazy=True) if its NDVI median is
+    more than `ndvi_drop` below the window's typical date, or its red median is more than `red_rise` above it
+    (smog scatters light, which brightens red and lowers NDVI). hazy is None when a window has fewer than 3 usable
+    dates (too few to judge). A heuristic to point you at dates worth looking at, not a verdict."""
+    by: dict = {}
+    for r in rows:
+        if r["valid_share"] >= min_valid:
+            by.setdefault((r["window"], r["date"]), []).append(r)
+    dates = [{"window": w, "date": d, "n_scenes": len(v),
+              "red_median": float(np.median([x["red_median"] for x in v])),
+              "ndvi_median": float(np.median([x["ndvi_median"] for x in v]))} for (w, d), v in sorted(by.items())]
+    for w in {d["window"] for d in dates}:
+        group = [d for d in dates if d["window"] == w]
+        if len(group) < 3:
+            for d in group:
+                d["hazy"] = None
+            continue
+        ref_n = float(np.median([d["ndvi_median"] for d in group]))
+        ref_r = float(np.median([d["red_median"] for d in group]))
+        for d in group:
+            d["hazy"] = bool(d["ndvi_median"] < ref_n - ndvi_drop or d["red_median"] > ref_r + red_rise)
+            d["ndvi_vs_window"] = d["ndvi_median"] - ref_n
+            d["red_vs_window"] = d["red_median"] - ref_r
+    return dates

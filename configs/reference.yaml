@@ -1,0 +1,19 @@
+# Phase 2 settings (kept separate from aravalli.yaml so your study-area edits are never overwritten).
+reference:
+  dataset_version: "0.1.0"
+  protocol_version: "1.0"
+  chip_px: 32                  # one reference unit = 32 x 32 pixels = 320 m x 320 m = 10.24 ha; must divide block_size_px
+  min_valid_fraction: 0.8      # chips with less clear imagery (both dates) are not sampled ("poor_observation")
+  min_flagged_px: 10           # a chip is 'flagged' if the baseline flags at least this many pixels in it
+  near_miss_drop: 0.15         # unflagged chips whose 95th-percentile NDVI drop is at least this are 'near_miss'
+  seed: 2026
+  confidence_scale: [high, medium, low]
+  loss_types: [natural_to_bare, natural_to_built, natural_to_mining, other]
+  landcover_groups:            # ESA WorldCover classes -> sampling groups (chip's majority class)
+    natural: [10, 20, 30]
+    cropland: [40]
+    built_up: [50]
+  allocation:                  # chips drawn per stratum (all of a stratum if it is smaller)
+    train: 0
+    validation: 6
+    test: 10
