@@ -1,0 +1,257 @@
+block_id,split,region,area_km2,stratum,selection_method,notes
+0,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+1,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+2,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+3,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+4,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+5,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+6,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+7,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+8,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+9,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+10,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+11,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+12,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+13,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+14,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+15,validation,NE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+16,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+17,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+18,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+19,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+20,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+21,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+22,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+23,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+24,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+25,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+26,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+27,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+28,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+29,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+30,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+31,validation,NE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+32,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+33,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+34,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+35,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+36,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+37,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+38,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+39,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+40,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+41,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+42,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+43,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+44,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+45,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+46,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+47,validation,NE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+48,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+49,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+50,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+51,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+52,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+53,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+54,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+55,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+56,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+57,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+58,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+59,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+60,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+61,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+62,validation,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+63,validation,NE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+64,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+65,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+66,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+67,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+68,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+69,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+70,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+71,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+72,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+73,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+74,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+75,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+76,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+77,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+78,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+79,buffer,NE,0.9856,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+80,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+81,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+82,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+83,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+84,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+85,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+86,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+87,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+88,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+89,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+90,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+91,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+92,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+93,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+94,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+95,train,NE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+96,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+97,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+98,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+99,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+100,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+101,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+102,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+103,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+104,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+105,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+106,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+107,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+108,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+109,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+110,train,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+111,train,NE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+112,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+113,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+114,train,NW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+115,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+116,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+117,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+118,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+119,buffer,NW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+120,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+121,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+122,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+123,test,NE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+124,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+125,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+126,buffer,NE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+127,buffer,NE,0.9856,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+128,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+129,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+130,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+131,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+132,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+133,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+134,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+135,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+136,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+137,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+138,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+139,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+140,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+141,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+142,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+143,test,SE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+144,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+145,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+146,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+147,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+148,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+149,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+150,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+151,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+152,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+153,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+154,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+155,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+156,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+157,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+158,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+159,test,SE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+160,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+161,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+162,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+163,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+164,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+165,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+166,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+167,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+168,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+169,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+170,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+171,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+172,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+173,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+174,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+175,test,SE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+176,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+177,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+178,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+179,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+180,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+181,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+182,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+183,validation,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+184,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+185,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+186,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+187,validation,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+188,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+189,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+190,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+191,test,SE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+192,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+193,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+194,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+195,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+196,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+197,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+198,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+199,buffer,SW,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+200,buffer,SE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+201,buffer,SE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+202,buffer,SE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+203,buffer,SE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+204,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+205,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+206,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+207,test,SE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+208,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+209,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+210,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+211,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+212,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+213,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+214,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+215,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+216,train,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+217,train,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+218,train,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+219,buffer,SE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+220,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+221,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+222,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+223,test,SE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+224,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+225,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+226,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+227,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+228,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+229,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+230,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+231,train,SW,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+232,train,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+233,train,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+234,train,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+235,buffer,SE,1.6384,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+236,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+237,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+238,test,SE,1.6384,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+239,test,SE,0.9856,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+240,train,SW,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+241,train,SW,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+242,train,SW,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+243,train,SW,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+244,train,SW,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+245,train,SW,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+246,train,SW,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+247,train,SW,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+248,train,SE,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+249,train,SE,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+250,train,SE,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+251,buffer,SE,1.4336,grouped_random_block,buffer: train block adjacent to validation/test,imported unchanged from the frozen Phase 1 manifest
+252,test,SE,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+253,test,SE,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+254,test,SE,1.4336,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest
+255,test,SE,0.8624,grouped_random_block,"grouped random assignment (seed=42, group_blocks=4, fractions=[0.6, 0.2, 0.2]); buffer=1 block(s)",imported unchanged from the frozen Phase 1 manifest

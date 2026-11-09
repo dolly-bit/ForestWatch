@@ -16,11 +16,10 @@ ap.add_argument("--split", required=True, choices=SPLITS)
 ap.add_argument("--reviewer", required=True, help="an id for you, e.g. R1")
 args = ap.parse_args()
 cfg, ref, meta, shape = load_context(ROOT)
-per = ref["allocation"][args.split]
-if per <= 0:
-    sys.exit(f"allocation for {args.split} is 0 in configs/reference.yaml")
 frame = read_rows(ROOT / "data" / "reference" / "sampling_frame.csv")
-chosen = sample_split(frame, args.split, per, ref["seed"])
+chosen = sample_split(frame, args.split, ref["allocation"][args.split], ref["seed"])
+if not chosen:
+    sys.exit(f"the allocation for {args.split} in configs/reference.yaml selects no chips")
 d = ROOT / "data" / "reference"
 kml = d / f"chips_{args.split}.kml"
 outputs = [d / f"selected_units_{args.split}.csv", d / f"label_sheet_{args.split}.csv", kml]

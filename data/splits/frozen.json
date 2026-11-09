@@ -1,0 +1,26 @@
+{
+  "blocks_per_split": {
+    "buffer": 42,
+    "test": 48,
+    "train": 118,
+    "validation": 48
+  },
+  "created_utc": "2026-11-09T12:38:56.292608+00:00",
+  "crs": "EPSG:32643",
+  "dataset_version": "0.1.0",
+  "grid": {
+    "height": 2032,
+    "transform": [
+      10.0,
+      0.0,
+      705580.0,
+      0.0,
+      -10.0,
+      3152540.0
+    ],
+    "width": 1997
+  },
+  "source_manifest": "data/labels/split_manifest.csv",
+  "source_manifest_sha256": "a33da4092fbd7568c2544cc590710f7e7660e947db650e75f6e8bc82065e35ae",
+  "test_block_ids_sha256": "ca323aae363361161199e187d3bd22dd8688a946a9b36df7c1cfa55da704c77b"
+}

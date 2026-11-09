@@ -10,6 +10,7 @@ from forestwatch.pipeline import run_pipeline
 from forestwatch.audit import new_run_id, write_run_manifest, sha256_file
 from forestwatch.reference.context import load_context, load_frozen_manifest
 from forestwatch.reference.frame import build_frame, stratum_table
+from forestwatch.reference.sampling import allocation_for
 from forestwatch.reference.schema import write_rows, FRAME_COLUMNS
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -40,6 +41,6 @@ print(f"Frame: {info['n_chips']} chips, {info['n_eligible']} eligible; exclusion
 for split in ("train", "validation", "test"):
     print(f"\n{split}: eligible chips per stratum (baseline status | land-cover group)")
     for k, n in sorted(tab.get(split, {}).items()):
-        print(f"  {k:36s} {n:5d}   planned draw {min(n, ref['allocation'][split])}")
-    planned = sum(min(n, ref["allocation"][split]) for n in tab.get(split, {}).values())
+        print(f"  {k:36s} {n:5d}   planned draw {min(n, allocation_for(ref['allocation'][split], k))}")
+    planned = sum(min(n, allocation_for(ref["allocation"][split], k)) for k, n in tab.get(split, {}).items())
     print(f"  -> {planned} chips to label for {split} (change 'allocation' in configs/reference.yaml before selecting)")

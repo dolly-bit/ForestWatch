@@ -4,7 +4,7 @@ reference:
   protocol_version: "1.0"
   chip_px: 32                  # one reference unit = 32 x 32 pixels = 320 m x 320 m = 10.24 ha; must divide block_size_px
   min_valid_fraction: 0.8      # chips with less clear imagery (both dates) are not sampled ("poor_observation")
-  min_flagged_px: 10           # a chip is 'flagged' if the baseline flags at least this many pixels in it
+  min_flagged_px: 30           # a chip is 'flagged' if the baseline flags at least this many pixels in it
   near_miss_drop: 0.15         # unflagged chips whose 95th-percentile NDVI drop is at least this are 'near_miss'
   seed: 2026
   confidence_scale: [high, medium, low]
@@ -13,7 +13,15 @@ reference:
     natural: [10, 20, 30]
     cropland: [40]
     built_up: [50]
-  allocation:                  # chips drawn per stratum (all of a stratum if it is smaller)
+  allocation:
     train: 0
-    validation: 6
-    test: 10
+    validation:
+      default: 4
+      "*|natural": 10
+      "*|cropland": 5
+      "*|built_up": 3
+    test:
+      default: 6
+      "*|natural": 15
+      "*|cropland": 8
+      "*|built_up": 4

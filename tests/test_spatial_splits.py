@@ -80,3 +80,35 @@ def test_stratified_estimator_known_values():
     assert full["estimated_loss_chips"] == 1.0 and full["se"] == 0.0           # fully sampled stratum: no sampling error
     single = stratified_estimate([{"stratum": "D", "y": 1, "N": 40}])
     assert single["se"] > 0 and any("worst-case" in n for n in single["notes"])
+
+
+def test_allocation_can_differ_by_stratum_with_clear_precedence():
+    from forestwatch.reference.sampling import allocation_for
+    spec = {"default": 4, "*|natural": 10, "*|cropland": 5, "flagged|*": 7, "flagged|natural": 12}
+    assert allocation_for(3, "anything|else") == 3                                   # a plain number still works
+    assert allocation_for(spec, "flagged|natural") == 12                             # exact name wins
+    assert allocation_for(spec, "unflagged_quiet|natural") == 10                     # then '*|group'
+    assert allocation_for(spec, "flagged|cropland") == 5                             # '*|group' beats 'status|*'
+    assert allocation_for(spec, "flagged|built_up") == 7                             # then 'status|*'
+    assert allocation_for(spec, "unflagged_quiet|built_up") == 4                     # then default
+    assert allocation_for({"*|natural": 2}, "unflagged_quiet|built_up") == 0         # no default: nothing drawn
+    with pytest.raises(ValueError):
+        allocation_for({"default": -1}, "x|y")
+
+
+def test_sampling_follows_a_per_stratum_allocation_and_keeps_exact_probabilities():
+    rows, _ = make_frame()
+    spec = {"default": 1, "*|natural": 3}
+    a = sample_split(rows, "validation", spec, 2026)
+    assert a == sample_split(rows, "validation", spec, 2026)
+    pops = {}
+    for r in rows:
+        if r["split"] == "validation" and r["eligible"] == "yes":
+            pops[r["stratum"]] = pops.get(r["stratum"], 0) + 1
+    counts = {}
+    for u in a:
+        counts[u["stratum"]] = counts.get(u["stratum"], 0) + 1
+    for s, N in pops.items():
+        want = min(3 if s.endswith("|natural") else 1, N)
+        assert counts.get(s, 0) == want, (s, counts.get(s), want)
+        assert all(abs(u["selection_probability"] - want / N) < 1e-5 for u in a if u["stratum"] == s)

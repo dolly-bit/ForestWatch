@@ -1,0 +1,13 @@
+{
+  "baseline_run_id": "run-20261109T125042Z-94bb445a",
+  "config_sha256": "94bb445a250e1058180efb63e5bfdd0edf665e7fe90d47cc73981bf9c6d291ad",
+  "reference_config_sha256": "cc66209ca8f8a7b3d5c9366a678c07a2fa5dcadad935b988e89745a480f090b3",
+  "split_manifest_sha256": "a33da4092fbd7568c2544cc590710f7e7660e947db650e75f6e8bc82065e35ae",
+  "chip_px": 32,
+  "n_chips": 3906,
+  "n_eligible": 3254,
+  "exclusions": {
+    "none": 3254,
+    "buffer_block": 652
+  }
+}

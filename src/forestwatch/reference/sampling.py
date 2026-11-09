@@ -8,7 +8,23 @@ SPLIT_INDEX = {"train": 0, "validation": 1, "test": 2}
 METHOD = "stratified_srs_without_replacement"
 
 
-def sample_split(frame_rows, split: str, per_stratum: int, seed: int) -> list[dict]:
+def allocation_for(spec, stratum: str) -> int:
+    """Chips to draw from one stratum. `spec` is either a single number (same for every stratum) or a dict with
+    keys looked up in this order: the exact stratum name ('flagged|natural'), '*|group' ('*|natural'),
+    'status|*' ('flagged|*'), then 'default' (0 if absent)."""
+    if not isinstance(spec, dict):
+        return int(spec)
+    status, _, group = stratum.partition("|")
+    for key in (stratum, f"*|{group}", f"{status}|*", "default"):
+        if key in spec:
+            n = int(spec[key])
+            if n < 0:
+                raise ValueError(f"allocation for {key!r} is negative")
+            return n
+    return 0
+
+
+def sample_split(frame_rows, split: str, per_stratum, seed: int) -> list[dict]:
     """Simple random sample without replacement inside each stratum of the eligible chips of one split.
     selection_probability = n_h / N_h is exact (not estimated); sampling_weight = its inverse."""
     pools: dict = {}
@@ -18,7 +34,7 @@ def sample_split(frame_rows, split: str, per_stratum: int, seed: int) -> list[di
     out = []
     for stratum in sorted(pools):
         pool = sorted(pools[stratum], key=lambda r: r["unit_id"])
-        N, n = len(pool), min(per_stratum, len(pool))
+        N, n = len(pool), min(allocation_for(per_stratum, stratum), len(pool))
         if n <= 0:
             continue
         rng = np.random.default_rng([seed, SPLIT_INDEX[split], zlib.crc32(stratum.encode())])

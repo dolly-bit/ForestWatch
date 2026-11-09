@@ -1,0 +1,9477 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1000612,
+              28.4833076
+            ],
+            [
+              77.1131295,
+              28.4831051
+            ],
+            [
+              77.1128997,
+              28.4715588
+            ],
+            [
+              77.0998328,
+              28.4717613
+            ],
+            [
+              77.1000612,
+              28.4833076
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 0,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1131295,
+              28.4831051
+            ],
+            [
+              77.1261977,
+              28.4829013
+            ],
+            [
+              77.1259664,
+              28.4713551
+            ],
+            [
+              77.1128997,
+              28.4715588
+            ],
+            [
+              77.1131295,
+              28.4831051
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 1,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1261977,
+              28.4829013
+            ],
+            [
+              77.1392657,
+              28.4826962
+            ],
+            [
+              77.139033,
+              28.4711502
+            ],
+            [
+              77.1259664,
+              28.4713551
+            ],
+            [
+              77.1261977,
+              28.4829013
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 2,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1392657,
+              28.4826962
+            ],
+            [
+              77.1523336,
+              28.4824899
+            ],
+            [
+              77.1520995,
+              28.470944
+            ],
+            [
+              77.139033,
+              28.4711502
+            ],
+            [
+              77.1392657,
+              28.4826962
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 3,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1523336,
+              28.4824899
+            ],
+            [
+              77.1654014,
+              28.4822823
+            ],
+            [
+              77.1651658,
+              28.4707365
+            ],
+            [
+              77.1520995,
+              28.470944
+            ],
+            [
+              77.1523336,
+              28.4824899
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 4,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1654014,
+              28.4822823
+            ],
+            [
+              77.178469,
+              28.4820735
+            ],
+            [
+              77.178232,
+              28.4705278
+            ],
+            [
+              77.1651658,
+              28.4707365
+            ],
+            [
+              77.1654014,
+              28.4822823
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 5,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.178469,
+              28.4820735
+            ],
+            [
+              77.1915365,
+              28.4818635
+            ],
+            [
+              77.1912981,
+              28.4703178
+            ],
+            [
+              77.178232,
+              28.4705278
+            ],
+            [
+              77.178469,
+              28.4820735
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 6,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1915365,
+              28.4818635
+            ],
+            [
+              77.2046038,
+              28.4816521
+            ],
+            [
+              77.204364,
+              28.4701066
+            ],
+            [
+              77.1912981,
+              28.4703178
+            ],
+            [
+              77.1915365,
+              28.4818635
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 7,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2046038,
+              28.4816521
+            ],
+            [
+              77.217671,
+              28.4814395
+            ],
+            [
+              77.2174298,
+              28.4698941
+            ],
+            [
+              77.204364,
+              28.4701066
+            ],
+            [
+              77.2046038,
+              28.4816521
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 8,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.217671,
+              28.4814395
+            ],
+            [
+              77.2307381,
+              28.4812257
+            ],
+            [
+              77.2304954,
+              28.4696804
+            ],
+            [
+              77.2174298,
+              28.4698941
+            ],
+            [
+              77.217671,
+              28.4814395
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 9,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2307381,
+              28.4812257
+            ],
+            [
+              77.243805,
+              28.4810106
+            ],
+            [
+              77.2435609,
+              28.4694654
+            ],
+            [
+              77.2304954,
+              28.4696804
+            ],
+            [
+              77.2307381,
+              28.4812257
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 10,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.243805,
+              28.4810106
+            ],
+            [
+              77.2568718,
+              28.4807943
+            ],
+            [
+              77.2566263,
+              28.4692491
+            ],
+            [
+              77.2435609,
+              28.4694654
+            ],
+            [
+              77.243805,
+              28.4810106
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 11,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2568718,
+              28.4807943
+            ],
+            [
+              77.2699384,
+              28.4805767
+            ],
+            [
+              77.2696915,
+              28.4690316
+            ],
+            [
+              77.2566263,
+              28.4692491
+            ],
+            [
+              77.2568718,
+              28.4807943
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 12,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2699384,
+              28.4805767
+            ],
+            [
+              77.2830049,
+              28.4803578
+            ],
+            [
+              77.2827565,
+              28.4688129
+            ],
+            [
+              77.2696915,
+              28.4690316
+            ],
+            [
+              77.2699384,
+              28.4805767
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 13,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2830049,
+              28.4803578
+            ],
+            [
+              77.2960712,
+              28.4801377
+            ],
+            [
+              77.2958215,
+              28.4685929
+            ],
+            [
+              77.2827565,
+              28.4688129
+            ],
+            [
+              77.2830049,
+              28.4803578
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 14,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2960712,
+              28.4801377
+            ],
+            [
+              77.3039314,
+              28.4800047
+            ],
+            [
+              77.3036808,
+              28.4684599
+            ],
+            [
+              77.2958215,
+              28.4685929
+            ],
+            [
+              77.2960712,
+              28.4801377
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 15,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0998328,
+              28.4717613
+            ],
+            [
+              77.1128997,
+              28.4715588
+            ],
+            [
+              77.1126699,
+              28.4600126
+            ],
+            [
+              77.0996044,
+              28.4602149
+            ],
+            [
+              77.0998328,
+              28.4717613
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 16,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1128997,
+              28.4715588
+            ],
+            [
+              77.1259664,
+              28.4713551
+            ],
+            [
+              77.1257352,
+              28.459809
+            ],
+            [
+              77.1126699,
+              28.4600126
+            ],
+            [
+              77.1128997,
+              28.4715588
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 17,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1259664,
+              28.4713551
+            ],
+            [
+              77.139033,
+              28.4711502
+            ],
+            [
+              77.1388004,
+              28.4596041
+            ],
+            [
+              77.1257352,
+              28.459809
+            ],
+            [
+              77.1259664,
+              28.4713551
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 18,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.139033,
+              28.4711502
+            ],
+            [
+              77.1520995,
+              28.470944
+            ],
+            [
+              77.1518655,
+              28.459398
+            ],
+            [
+              77.1388004,
+              28.4596041
+            ],
+            [
+              77.139033,
+              28.4711502
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 19,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1520995,
+              28.470944
+            ],
+            [
+              77.1651658,
+              28.4707365
+            ],
+            [
+              77.1649304,
+              28.4591906
+            ],
+            [
+              77.1518655,
+              28.459398
+            ],
+            [
+              77.1520995,
+              28.470944
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 20,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1651658,
+              28.4707365
+            ],
+            [
+              77.178232,
+              28.4705278
+            ],
+            [
+              77.1779952,
+              28.458982
+            ],
+            [
+              77.1649304,
+              28.4591906
+            ],
+            [
+              77.1651658,
+              28.4707365
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 21,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.178232,
+              28.4705278
+            ],
+            [
+              77.1912981,
+              28.4703178
+            ],
+            [
+              77.1910598,
+              28.4587721
+            ],
+            [
+              77.1779952,
+              28.458982
+            ],
+            [
+              77.178232,
+              28.4705278
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 22,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1912981,
+              28.4703178
+            ],
+            [
+              77.204364,
+              28.4701066
+            ],
+            [
+              77.2041243,
+              28.458561
+            ],
+            [
+              77.1910598,
+              28.4587721
+            ],
+            [
+              77.1912981,
+              28.4703178
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 23,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.204364,
+              28.4701066
+            ],
+            [
+              77.2174298,
+              28.4698941
+            ],
+            [
+              77.2171887,
+              28.4583486
+            ],
+            [
+              77.2041243,
+              28.458561
+            ],
+            [
+              77.204364,
+              28.4701066
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 24,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2174298,
+              28.4698941
+            ],
+            [
+              77.2304954,
+              28.4696804
+            ],
+            [
+              77.2302529,
+              28.458135
+            ],
+            [
+              77.2171887,
+              28.4583486
+            ],
+            [
+              77.2174298,
+              28.4698941
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 25,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2304954,
+              28.4696804
+            ],
+            [
+              77.2435609,
+              28.4694654
+            ],
+            [
+              77.243317,
+              28.4579201
+            ],
+            [
+              77.2302529,
+              28.458135
+            ],
+            [
+              77.2304954,
+              28.4696804
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 26,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2435609,
+              28.4694654
+            ],
+            [
+              77.2566263,
+              28.4692491
+            ],
+            [
+              77.2563809,
+              28.457704
+            ],
+            [
+              77.243317,
+              28.4579201
+            ],
+            [
+              77.2435609,
+              28.4694654
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 27,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2566263,
+              28.4692491
+            ],
+            [
+              77.2696915,
+              28.4690316
+            ],
+            [
+              77.2694447,
+              28.4574866
+            ],
+            [
+              77.2563809,
+              28.457704
+            ],
+            [
+              77.2566263,
+              28.4692491
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 28,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2696915,
+              28.4690316
+            ],
+            [
+              77.2827565,
+              28.4688129
+            ],
+            [
+              77.2825084,
+              28.4572679
+            ],
+            [
+              77.2694447,
+              28.4574866
+            ],
+            [
+              77.2696915,
+              28.4690316
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 29,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2827565,
+              28.4688129
+            ],
+            [
+              77.2958215,
+              28.4685929
+            ],
+            [
+              77.2955719,
+              28.457048
+            ],
+            [
+              77.2825084,
+              28.4572679
+            ],
+            [
+              77.2827565,
+              28.4688129
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 30,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2958215,
+              28.4685929
+            ],
+            [
+              77.3036808,
+              28.4684599
+            ],
+            [
+              77.3034303,
+              28.4569151
+            ],
+            [
+              77.2955719,
+              28.457048
+            ],
+            [
+              77.2958215,
+              28.4685929
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 31,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0996044,
+              28.4602149
+            ],
+            [
+              77.1126699,
+              28.4600126
+            ],
+            [
+              77.1124403,
+              28.4484663
+            ],
+            [
+              77.0993762,
+              28.4486685
+            ],
+            [
+              77.0996044,
+              28.4602149
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 32,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1126699,
+              28.4600126
+            ],
+            [
+              77.1257352,
+              28.459809
+            ],
+            [
+              77.1255042,
+              28.4482628
+            ],
+            [
+              77.1124403,
+              28.4484663
+            ],
+            [
+              77.1126699,
+              28.4600126
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 33,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1257352,
+              28.459809
+            ],
+            [
+              77.1388004,
+              28.4596041
+            ],
+            [
+              77.138568,
+              28.448058
+            ],
+            [
+              77.1255042,
+              28.4482628
+            ],
+            [
+              77.1257352,
+              28.459809
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 34,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1388004,
+              28.4596041
+            ],
+            [
+              77.1518655,
+              28.459398
+            ],
+            [
+              77.1516316,
+              28.447852
+            ],
+            [
+              77.138568,
+              28.448058
+            ],
+            [
+              77.1388004,
+              28.4596041
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 35,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1518655,
+              28.459398
+            ],
+            [
+              77.1649304,
+              28.4591906
+            ],
+            [
+              77.1646951,
+              28.4476447
+            ],
+            [
+              77.1516316,
+              28.447852
+            ],
+            [
+              77.1518655,
+              28.459398
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 36,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1649304,
+              28.4591906
+            ],
+            [
+              77.1779952,
+              28.458982
+            ],
+            [
+              77.1777585,
+              28.4474362
+            ],
+            [
+              77.1646951,
+              28.4476447
+            ],
+            [
+              77.1649304,
+              28.4591906
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 37,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1779952,
+              28.458982
+            ],
+            [
+              77.1910598,
+              28.4587721
+            ],
+            [
+              77.1908217,
+              28.4472264
+            ],
+            [
+              77.1777585,
+              28.4474362
+            ],
+            [
+              77.1779952,
+              28.458982
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 38,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1910598,
+              28.4587721
+            ],
+            [
+              77.2041243,
+              28.458561
+            ],
+            [
+              77.2038848,
+              28.4470154
+            ],
+            [
+              77.1908217,
+              28.4472264
+            ],
+            [
+              77.1910598,
+              28.4587721
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 39,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2041243,
+              28.458561
+            ],
+            [
+              77.2171887,
+              28.4583486
+            ],
+            [
+              77.2169477,
+              28.4468031
+            ],
+            [
+              77.2038848,
+              28.4470154
+            ],
+            [
+              77.2041243,
+              28.458561
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 40,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2171887,
+              28.4583486
+            ],
+            [
+              77.2302529,
+              28.458135
+            ],
+            [
+              77.2300105,
+              28.4465896
+            ],
+            [
+              77.2169477,
+              28.4468031
+            ],
+            [
+              77.2171887,
+              28.4583486
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 41,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2302529,
+              28.458135
+            ],
+            [
+              77.243317,
+              28.4579201
+            ],
+            [
+              77.2430732,
+              28.4463748
+            ],
+            [
+              77.2300105,
+              28.4465896
+            ],
+            [
+              77.2302529,
+              28.458135
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 42,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.243317,
+              28.4579201
+            ],
+            [
+              77.2563809,
+              28.457704
+            ],
+            [
+              77.2561357,
+              28.4461588
+            ],
+            [
+              77.2430732,
+              28.4463748
+            ],
+            [
+              77.243317,
+              28.4579201
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 43,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2563809,
+              28.457704
+            ],
+            [
+              77.2694447,
+              28.4574866
+            ],
+            [
+              77.2691981,
+              28.4459415
+            ],
+            [
+              77.2561357,
+              28.4461588
+            ],
+            [
+              77.2563809,
+              28.457704
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 44,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2694447,
+              28.4574866
+            ],
+            [
+              77.2825084,
+              28.4572679
+            ],
+            [
+              77.2822603,
+              28.445723
+            ],
+            [
+              77.2691981,
+              28.4459415
+            ],
+            [
+              77.2694447,
+              28.4574866
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 45,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2825084,
+              28.4572679
+            ],
+            [
+              77.2955719,
+              28.457048
+            ],
+            [
+              77.2953224,
+              28.4455032
+            ],
+            [
+              77.2822603,
+              28.445723
+            ],
+            [
+              77.2825084,
+              28.4572679
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 46,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2955719,
+              28.457048
+            ],
+            [
+              77.3034303,
+              28.4569151
+            ],
+            [
+              77.30318,
+              28.4453703
+            ],
+            [
+              77.2953224,
+              28.4455032
+            ],
+            [
+              77.2955719,
+              28.457048
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 47,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0993762,
+              28.4486685
+            ],
+            [
+              77.1124403,
+              28.4484663
+            ],
+            [
+              77.1122108,
+              28.43692
+            ],
+            [
+              77.0991482,
+              28.4371221
+            ],
+            [
+              77.0993762,
+              28.4486685
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 48,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1124403,
+              28.4484663
+            ],
+            [
+              77.1255042,
+              28.4482628
+            ],
+            [
+              77.1252733,
+              28.4367166
+            ],
+            [
+              77.1122108,
+              28.43692
+            ],
+            [
+              77.1124403,
+              28.4484663
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 49,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1255042,
+              28.4482628
+            ],
+            [
+              77.138568,
+              28.448058
+            ],
+            [
+              77.1383357,
+              28.4365119
+            ],
+            [
+              77.1252733,
+              28.4367166
+            ],
+            [
+              77.1255042,
+              28.4482628
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 50,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.138568,
+              28.448058
+            ],
+            [
+              77.1516316,
+              28.447852
+            ],
+            [
+              77.1513979,
+              28.436306
+            ],
+            [
+              77.1383357,
+              28.4365119
+            ],
+            [
+              77.138568,
+              28.448058
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 51,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1516316,
+              28.447852
+            ],
+            [
+              77.1646951,
+              28.4476447
+            ],
+            [
+              77.16446,
+              28.4360988
+            ],
+            [
+              77.1513979,
+              28.436306
+            ],
+            [
+              77.1516316,
+              28.447852
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 52,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1646951,
+              28.4476447
+            ],
+            [
+              77.1777585,
+              28.4474362
+            ],
+            [
+              77.1775219,
+              28.4358904
+            ],
+            [
+              77.16446,
+              28.4360988
+            ],
+            [
+              77.1646951,
+              28.4476447
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 53,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1777585,
+              28.4474362
+            ],
+            [
+              77.1908217,
+              28.4472264
+            ],
+            [
+              77.1905837,
+              28.4356807
+            ],
+            [
+              77.1775219,
+              28.4358904
+            ],
+            [
+              77.1777585,
+              28.4474362
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 54,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1908217,
+              28.4472264
+            ],
+            [
+              77.2038848,
+              28.4470154
+            ],
+            [
+              77.2036454,
+              28.4354698
+            ],
+            [
+              77.1905837,
+              28.4356807
+            ],
+            [
+              77.1908217,
+              28.4472264
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 55,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2038848,
+              28.4470154
+            ],
+            [
+              77.2169477,
+              28.4468031
+            ],
+            [
+              77.2167069,
+              28.4352576
+            ],
+            [
+              77.2036454,
+              28.4354698
+            ],
+            [
+              77.2038848,
+              28.4470154
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 56,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2169477,
+              28.4468031
+            ],
+            [
+              77.2300105,
+              28.4465896
+            ],
+            [
+              77.2297683,
+              28.4350442
+            ],
+            [
+              77.2167069,
+              28.4352576
+            ],
+            [
+              77.2169477,
+              28.4468031
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 57,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2300105,
+              28.4465896
+            ],
+            [
+              77.2430732,
+              28.4463748
+            ],
+            [
+              77.2428296,
+              28.4348295
+            ],
+            [
+              77.2297683,
+              28.4350442
+            ],
+            [
+              77.2300105,
+              28.4465896
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 58,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2430732,
+              28.4463748
+            ],
+            [
+              77.2561357,
+              28.4461588
+            ],
+            [
+              77.2558907,
+              28.4346136
+            ],
+            [
+              77.2428296,
+              28.4348295
+            ],
+            [
+              77.2430732,
+              28.4463748
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 59,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2561357,
+              28.4461588
+            ],
+            [
+              77.2691981,
+              28.4459415
+            ],
+            [
+              77.2689516,
+              28.4343964
+            ],
+            [
+              77.2558907,
+              28.4346136
+            ],
+            [
+              77.2561357,
+              28.4461588
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 60,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2691981,
+              28.4459415
+            ],
+            [
+              77.2822603,
+              28.445723
+            ],
+            [
+              77.2820124,
+              28.434178
+            ],
+            [
+              77.2689516,
+              28.4343964
+            ],
+            [
+              77.2691981,
+              28.4459415
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 61,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2822603,
+              28.445723
+            ],
+            [
+              77.2953224,
+              28.4455032
+            ],
+            [
+              77.2950731,
+              28.4339583
+            ],
+            [
+              77.2820124,
+              28.434178
+            ],
+            [
+              77.2822603,
+              28.445723
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 62,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2953224,
+              28.4455032
+            ],
+            [
+              77.30318,
+              28.4453703
+            ],
+            [
+              77.3029298,
+              28.4338255
+            ],
+            [
+              77.2950731,
+              28.4339583
+            ],
+            [
+              77.2953224,
+              28.4455032
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 63,
+        "region": "NE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0991482,
+              28.4371221
+            ],
+            [
+              77.1122108,
+              28.43692
+            ],
+            [
+              77.1119815,
+              28.4253736
+            ],
+            [
+              77.0989202,
+              28.4255757
+            ],
+            [
+              77.0991482,
+              28.4371221
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 64,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1122108,
+              28.43692
+            ],
+            [
+              77.1252733,
+              28.4367166
+            ],
+            [
+              77.1250425,
+              28.4251703
+            ],
+            [
+              77.1119815,
+              28.4253736
+            ],
+            [
+              77.1122108,
+              28.43692
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 65,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1252733,
+              28.4367166
+            ],
+            [
+              77.1383357,
+              28.4365119
+            ],
+            [
+              77.1381035,
+              28.4249658
+            ],
+            [
+              77.1250425,
+              28.4251703
+            ],
+            [
+              77.1252733,
+              28.4367166
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 66,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1383357,
+              28.4365119
+            ],
+            [
+              77.1513979,
+              28.436306
+            ],
+            [
+              77.1511643,
+              28.4247599
+            ],
+            [
+              77.1381035,
+              28.4249658
+            ],
+            [
+              77.1383357,
+              28.4365119
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 67,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1513979,
+              28.436306
+            ],
+            [
+              77.16446,
+              28.4360988
+            ],
+            [
+              77.164225,
+              28.4245529
+            ],
+            [
+              77.1511643,
+              28.4247599
+            ],
+            [
+              77.1513979,
+              28.436306
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 68,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.16446,
+              28.4360988
+            ],
+            [
+              77.1775219,
+              28.4358904
+            ],
+            [
+              77.1772855,
+              28.4243445
+            ],
+            [
+              77.164225,
+              28.4245529
+            ],
+            [
+              77.16446,
+              28.4360988
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 69,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1775219,
+              28.4358904
+            ],
+            [
+              77.1905837,
+              28.4356807
+            ],
+            [
+              77.1903459,
+              28.424135
+            ],
+            [
+              77.1772855,
+              28.4243445
+            ],
+            [
+              77.1775219,
+              28.4358904
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 70,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1905837,
+              28.4356807
+            ],
+            [
+              77.2036454,
+              28.4354698
+            ],
+            [
+              77.2034061,
+              28.4239242
+            ],
+            [
+              77.1903459,
+              28.424135
+            ],
+            [
+              77.1905837,
+              28.4356807
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 71,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2036454,
+              28.4354698
+            ],
+            [
+              77.2167069,
+              28.4352576
+            ],
+            [
+              77.2164663,
+              28.4237121
+            ],
+            [
+              77.2034061,
+              28.4239242
+            ],
+            [
+              77.2036454,
+              28.4354698
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 72,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2167069,
+              28.4352576
+            ],
+            [
+              77.2297683,
+              28.4350442
+            ],
+            [
+              77.2295262,
+              28.4234988
+            ],
+            [
+              77.2164663,
+              28.4237121
+            ],
+            [
+              77.2167069,
+              28.4352576
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 73,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2297683,
+              28.4350442
+            ],
+            [
+              77.2428296,
+              28.4348295
+            ],
+            [
+              77.2425861,
+              28.4232842
+            ],
+            [
+              77.2295262,
+              28.4234988
+            ],
+            [
+              77.2297683,
+              28.4350442
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 74,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2428296,
+              28.4348295
+            ],
+            [
+              77.2558907,
+              28.4346136
+            ],
+            [
+              77.2556457,
+              28.4230683
+            ],
+            [
+              77.2425861,
+              28.4232842
+            ],
+            [
+              77.2428296,
+              28.4348295
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 75,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2558907,
+              28.4346136
+            ],
+            [
+              77.2689516,
+              28.4343964
+            ],
+            [
+              77.2687053,
+              28.4228513
+            ],
+            [
+              77.2556457,
+              28.4230683
+            ],
+            [
+              77.2558907,
+              28.4346136
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 76,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2689516,
+              28.4343964
+            ],
+            [
+              77.2820124,
+              28.434178
+            ],
+            [
+              77.2817647,
+              28.4226329
+            ],
+            [
+              77.2687053,
+              28.4228513
+            ],
+            [
+              77.2689516,
+              28.4343964
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 77,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2820124,
+              28.434178
+            ],
+            [
+              77.2950731,
+              28.4339583
+            ],
+            [
+              77.2948239,
+              28.4224134
+            ],
+            [
+              77.2817647,
+              28.4226329
+            ],
+            [
+              77.2820124,
+              28.434178
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 78,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2950731,
+              28.4339583
+            ],
+            [
+              77.3029298,
+              28.4338255
+            ],
+            [
+              77.3026798,
+              28.4222807
+            ],
+            [
+              77.2948239,
+              28.4224134
+            ],
+            [
+              77.2950731,
+              28.4339583
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 79,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0989202,
+              28.4255757
+            ],
+            [
+              77.1119815,
+              28.4253736
+            ],
+            [
+              77.1117522,
+              28.4138273
+            ],
+            [
+              77.0986924,
+              28.4140293
+            ],
+            [
+              77.0989202,
+              28.4255757
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 80,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1119815,
+              28.4253736
+            ],
+            [
+              77.1250425,
+              28.4251703
+            ],
+            [
+              77.1248119,
+              28.4136241
+            ],
+            [
+              77.1117522,
+              28.4138273
+            ],
+            [
+              77.1119815,
+              28.4253736
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 81,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1250425,
+              28.4251703
+            ],
+            [
+              77.1381035,
+              28.4249658
+            ],
+            [
+              77.1378714,
+              28.4134196
+            ],
+            [
+              77.1248119,
+              28.4136241
+            ],
+            [
+              77.1250425,
+              28.4251703
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 82,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1381035,
+              28.4249658
+            ],
+            [
+              77.1511643,
+              28.4247599
+            ],
+            [
+              77.1509308,
+              28.4132139
+            ],
+            [
+              77.1378714,
+              28.4134196
+            ],
+            [
+              77.1381035,
+              28.4249658
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 83,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1511643,
+              28.4247599
+            ],
+            [
+              77.164225,
+              28.4245529
+            ],
+            [
+              77.1639901,
+              28.4130069
+            ],
+            [
+              77.1509308,
+              28.4132139
+            ],
+            [
+              77.1511643,
+              28.4247599
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 84,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.164225,
+              28.4245529
+            ],
+            [
+              77.1772855,
+              28.4243445
+            ],
+            [
+              77.1770492,
+              28.4127987
+            ],
+            [
+              77.1639901,
+              28.4130069
+            ],
+            [
+              77.164225,
+              28.4245529
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 85,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1772855,
+              28.4243445
+            ],
+            [
+              77.1903459,
+              28.424135
+            ],
+            [
+              77.1901082,
+              28.4125892
+            ],
+            [
+              77.1770492,
+              28.4127987
+            ],
+            [
+              77.1772855,
+              28.4243445
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 86,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1903459,
+              28.424135
+            ],
+            [
+              77.2034061,
+              28.4239242
+            ],
+            [
+              77.203167,
+              28.4123785
+            ],
+            [
+              77.1901082,
+              28.4125892
+            ],
+            [
+              77.1903459,
+              28.424135
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 87,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2034061,
+              28.4239242
+            ],
+            [
+              77.2164663,
+              28.4237121
+            ],
+            [
+              77.2162257,
+              28.4121665
+            ],
+            [
+              77.203167,
+              28.4123785
+            ],
+            [
+              77.2034061,
+              28.4239242
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 88,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2164663,
+              28.4237121
+            ],
+            [
+              77.2295262,
+              28.4234988
+            ],
+            [
+              77.2292843,
+              28.4119533
+            ],
+            [
+              77.2162257,
+              28.4121665
+            ],
+            [
+              77.2164663,
+              28.4237121
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 89,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2295262,
+              28.4234988
+            ],
+            [
+              77.2425861,
+              28.4232842
+            ],
+            [
+              77.2423427,
+              28.4117388
+            ],
+            [
+              77.2292843,
+              28.4119533
+            ],
+            [
+              77.2295262,
+              28.4234988
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 90,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2425861,
+              28.4232842
+            ],
+            [
+              77.2556457,
+              28.4230683
+            ],
+            [
+              77.255401,
+              28.4115231
+            ],
+            [
+              77.2423427,
+              28.4117388
+            ],
+            [
+              77.2425861,
+              28.4232842
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 91,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2556457,
+              28.4230683
+            ],
+            [
+              77.2687053,
+              28.4228513
+            ],
+            [
+              77.2684591,
+              28.4113061
+            ],
+            [
+              77.255401,
+              28.4115231
+            ],
+            [
+              77.2556457,
+              28.4230683
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 92,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2687053,
+              28.4228513
+            ],
+            [
+              77.2817647,
+              28.4226329
+            ],
+            [
+              77.2815171,
+              28.4110879
+            ],
+            [
+              77.2684591,
+              28.4113061
+            ],
+            [
+              77.2687053,
+              28.4228513
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 93,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2817647,
+              28.4226329
+            ],
+            [
+              77.2948239,
+              28.4224134
+            ],
+            [
+              77.2945749,
+              28.4108684
+            ],
+            [
+              77.2815171,
+              28.4110879
+            ],
+            [
+              77.2817647,
+              28.4226329
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 94,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2948239,
+              28.4224134
+            ],
+            [
+              77.3026798,
+              28.4222807
+            ],
+            [
+              77.3024299,
+              28.4107358
+            ],
+            [
+              77.2945749,
+              28.4108684
+            ],
+            [
+              77.2948239,
+              28.4224134
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 95,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0986924,
+              28.4140293
+            ],
+            [
+              77.1117522,
+              28.4138273
+            ],
+            [
+              77.1115232,
+              28.4022809
+            ],
+            [
+              77.0984648,
+              28.4024828
+            ],
+            [
+              77.0986924,
+              28.4140293
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 96,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1117522,
+              28.4138273
+            ],
+            [
+              77.1248119,
+              28.4136241
+            ],
+            [
+              77.1245814,
+              28.4020778
+            ],
+            [
+              77.1115232,
+              28.4022809
+            ],
+            [
+              77.1117522,
+              28.4138273
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 97,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1248119,
+              28.4136241
+            ],
+            [
+              77.1378714,
+              28.4134196
+            ],
+            [
+              77.1376395,
+              28.4018734
+            ],
+            [
+              77.1245814,
+              28.4020778
+            ],
+            [
+              77.1248119,
+              28.4136241
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 98,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1378714,
+              28.4134196
+            ],
+            [
+              77.1509308,
+              28.4132139
+            ],
+            [
+              77.1506975,
+              28.4016678
+            ],
+            [
+              77.1376395,
+              28.4018734
+            ],
+            [
+              77.1378714,
+              28.4134196
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 99,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1509308,
+              28.4132139
+            ],
+            [
+              77.1639901,
+              28.4130069
+            ],
+            [
+              77.1637554,
+              28.4014609
+            ],
+            [
+              77.1506975,
+              28.4016678
+            ],
+            [
+              77.1509308,
+              28.4132139
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 100,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1639901,
+              28.4130069
+            ],
+            [
+              77.1770492,
+              28.4127987
+            ],
+            [
+              77.1768131,
+              28.4012528
+            ],
+            [
+              77.1637554,
+              28.4014609
+            ],
+            [
+              77.1639901,
+              28.4130069
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 101,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1770492,
+              28.4127987
+            ],
+            [
+              77.1901082,
+              28.4125892
+            ],
+            [
+              77.1898706,
+              28.4010434
+            ],
+            [
+              77.1768131,
+              28.4012528
+            ],
+            [
+              77.1770492,
+              28.4127987
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 102,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1901082,
+              28.4125892
+            ],
+            [
+              77.203167,
+              28.4123785
+            ],
+            [
+              77.2029281,
+              28.4008328
+            ],
+            [
+              77.1898706,
+              28.4010434
+            ],
+            [
+              77.1901082,
+              28.4125892
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 103,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.203167,
+              28.4123785
+            ],
+            [
+              77.2162257,
+              28.4121665
+            ],
+            [
+              77.2159853,
+              28.4006209
+            ],
+            [
+              77.2029281,
+              28.4008328
+            ],
+            [
+              77.203167,
+              28.4123785
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 104,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2162257,
+              28.4121665
+            ],
+            [
+              77.2292843,
+              28.4119533
+            ],
+            [
+              77.2290425,
+              28.4004078
+            ],
+            [
+              77.2159853,
+              28.4006209
+            ],
+            [
+              77.2162257,
+              28.4121665
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 105,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2292843,
+              28.4119533
+            ],
+            [
+              77.2423427,
+              28.4117388
+            ],
+            [
+              77.2420995,
+              28.4001935
+            ],
+            [
+              77.2290425,
+              28.4004078
+            ],
+            [
+              77.2292843,
+              28.4119533
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 106,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2423427,
+              28.4117388
+            ],
+            [
+              77.255401,
+              28.4115231
+            ],
+            [
+              77.2551563,
+              28.3999778
+            ],
+            [
+              77.2420995,
+              28.4001935
+            ],
+            [
+              77.2423427,
+              28.4117388
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 107,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.255401,
+              28.4115231
+            ],
+            [
+              77.2684591,
+              28.4113061
+            ],
+            [
+              77.2682131,
+              28.399761
+            ],
+            [
+              77.2551563,
+              28.3999778
+            ],
+            [
+              77.255401,
+              28.4115231
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 108,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2684591,
+              28.4113061
+            ],
+            [
+              77.2815171,
+              28.4110879
+            ],
+            [
+              77.2812696,
+              28.3995428
+            ],
+            [
+              77.2682131,
+              28.399761
+            ],
+            [
+              77.2684591,
+              28.4113061
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 109,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2815171,
+              28.4110879
+            ],
+            [
+              77.2945749,
+              28.4108684
+            ],
+            [
+              77.294326,
+              28.3993235
+            ],
+            [
+              77.2812696,
+              28.3995428
+            ],
+            [
+              77.2815171,
+              28.4110879
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 110,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2945749,
+              28.4108684
+            ],
+            [
+              77.3024299,
+              28.4107358
+            ],
+            [
+              77.3021802,
+              28.3991909
+            ],
+            [
+              77.294326,
+              28.3993235
+            ],
+            [
+              77.2945749,
+              28.4108684
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 111,
+        "region": "NE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0984648,
+              28.4024828
+            ],
+            [
+              77.1115232,
+              28.4022809
+            ],
+            [
+              77.1112942,
+              28.3907345
+            ],
+            [
+              77.0982372,
+              28.3909363
+            ],
+            [
+              77.0984648,
+              28.4024828
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 112,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1115232,
+              28.4022809
+            ],
+            [
+              77.1245814,
+              28.4020778
+            ],
+            [
+              77.1243511,
+              28.3905315
+            ],
+            [
+              77.1112942,
+              28.3907345
+            ],
+            [
+              77.1115232,
+              28.4022809
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 113,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1245814,
+              28.4020778
+            ],
+            [
+              77.1376395,
+              28.4018734
+            ],
+            [
+              77.1374078,
+              28.3903272
+            ],
+            [
+              77.1243511,
+              28.3905315
+            ],
+            [
+              77.1245814,
+              28.4020778
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 114,
+        "region": "NW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1376395,
+              28.4018734
+            ],
+            [
+              77.1506975,
+              28.4016678
+            ],
+            [
+              77.1504643,
+              28.3901217
+            ],
+            [
+              77.1374078,
+              28.3903272
+            ],
+            [
+              77.1376395,
+              28.4018734
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 115,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1506975,
+              28.4016678
+            ],
+            [
+              77.1637554,
+              28.4014609
+            ],
+            [
+              77.1635208,
+              28.3899149
+            ],
+            [
+              77.1504643,
+              28.3901217
+            ],
+            [
+              77.1506975,
+              28.4016678
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 116,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1637554,
+              28.4014609
+            ],
+            [
+              77.1768131,
+              28.4012528
+            ],
+            [
+              77.1765771,
+              28.3897069
+            ],
+            [
+              77.1635208,
+              28.3899149
+            ],
+            [
+              77.1637554,
+              28.4014609
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 117,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1768131,
+              28.4012528
+            ],
+            [
+              77.1898706,
+              28.4010434
+            ],
+            [
+              77.1896332,
+              28.3894976
+            ],
+            [
+              77.1765771,
+              28.3897069
+            ],
+            [
+              77.1768131,
+              28.4012528
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 118,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1898706,
+              28.4010434
+            ],
+            [
+              77.2029281,
+              28.4008328
+            ],
+            [
+              77.2026892,
+              28.3892871
+            ],
+            [
+              77.1896332,
+              28.3894976
+            ],
+            [
+              77.1898706,
+              28.4010434
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 119,
+        "region": "NW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2029281,
+              28.4008328
+            ],
+            [
+              77.2159853,
+              28.4006209
+            ],
+            [
+              77.2157451,
+              28.3890753
+            ],
+            [
+              77.2026892,
+              28.3892871
+            ],
+            [
+              77.2029281,
+              28.4008328
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 120,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2159853,
+              28.4006209
+            ],
+            [
+              77.2290425,
+              28.4004078
+            ],
+            [
+              77.2288008,
+              28.3888623
+            ],
+            [
+              77.2157451,
+              28.3890753
+            ],
+            [
+              77.2159853,
+              28.4006209
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 121,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2290425,
+              28.4004078
+            ],
+            [
+              77.2420995,
+              28.4001935
+            ],
+            [
+              77.2418564,
+              28.3886481
+            ],
+            [
+              77.2288008,
+              28.3888623
+            ],
+            [
+              77.2290425,
+              28.4004078
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 122,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2420995,
+              28.4001935
+            ],
+            [
+              77.2551563,
+              28.3999778
+            ],
+            [
+              77.2549119,
+              28.3884325
+            ],
+            [
+              77.2418564,
+              28.3886481
+            ],
+            [
+              77.2420995,
+              28.4001935
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 123,
+        "region": "NE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2551563,
+              28.3999778
+            ],
+            [
+              77.2682131,
+              28.399761
+            ],
+            [
+              77.2679672,
+              28.3882158
+            ],
+            [
+              77.2549119,
+              28.3884325
+            ],
+            [
+              77.2551563,
+              28.3999778
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 124,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2682131,
+              28.399761
+            ],
+            [
+              77.2812696,
+              28.3995428
+            ],
+            [
+              77.2810223,
+              28.3879978
+            ],
+            [
+              77.2679672,
+              28.3882158
+            ],
+            [
+              77.2682131,
+              28.399761
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 125,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2812696,
+              28.3995428
+            ],
+            [
+              77.294326,
+              28.3993235
+            ],
+            [
+              77.2940773,
+              28.3877785
+            ],
+            [
+              77.2810223,
+              28.3879978
+            ],
+            [
+              77.2812696,
+              28.3995428
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 126,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.294326,
+              28.3993235
+            ],
+            [
+              77.3021802,
+              28.3991909
+            ],
+            [
+              77.3019307,
+              28.387646
+            ],
+            [
+              77.2940773,
+              28.3877785
+            ],
+            [
+              77.294326,
+              28.3993235
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 127,
+        "region": "NE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0982372,
+              28.3909363
+            ],
+            [
+              77.1112942,
+              28.3907345
+            ],
+            [
+              77.1110654,
+              28.3791881
+            ],
+            [
+              77.0980098,
+              28.3793898
+            ],
+            [
+              77.0982372,
+              28.3909363
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 128,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1112942,
+              28.3907345
+            ],
+            [
+              77.1243511,
+              28.3905315
+            ],
+            [
+              77.1241208,
+              28.3789852
+            ],
+            [
+              77.1110654,
+              28.3791881
+            ],
+            [
+              77.1112942,
+              28.3907345
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 129,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1243511,
+              28.3905315
+            ],
+            [
+              77.1374078,
+              28.3903272
+            ],
+            [
+              77.1371761,
+              28.378781
+            ],
+            [
+              77.1241208,
+              28.3789852
+            ],
+            [
+              77.1243511,
+              28.3905315
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 130,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1374078,
+              28.3903272
+            ],
+            [
+              77.1504643,
+              28.3901217
+            ],
+            [
+              77.1502313,
+              28.3785756
+            ],
+            [
+              77.1371761,
+              28.378781
+            ],
+            [
+              77.1374078,
+              28.3903272
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 131,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1504643,
+              28.3901217
+            ],
+            [
+              77.1635208,
+              28.3899149
+            ],
+            [
+              77.1632863,
+              28.3783689
+            ],
+            [
+              77.1502313,
+              28.3785756
+            ],
+            [
+              77.1504643,
+              28.3901217
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 132,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1635208,
+              28.3899149
+            ],
+            [
+              77.1765771,
+              28.3897069
+            ],
+            [
+              77.1763412,
+              28.378161
+            ],
+            [
+              77.1632863,
+              28.3783689
+            ],
+            [
+              77.1635208,
+              28.3899149
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 133,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1765771,
+              28.3897069
+            ],
+            [
+              77.1896332,
+              28.3894976
+            ],
+            [
+              77.1893959,
+              28.3779518
+            ],
+            [
+              77.1763412,
+              28.378161
+            ],
+            [
+              77.1765771,
+              28.3897069
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 134,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1896332,
+              28.3894976
+            ],
+            [
+              77.2026892,
+              28.3892871
+            ],
+            [
+              77.2024505,
+              28.3777414
+            ],
+            [
+              77.1893959,
+              28.3779518
+            ],
+            [
+              77.1896332,
+              28.3894976
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 135,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2026892,
+              28.3892871
+            ],
+            [
+              77.2157451,
+              28.3890753
+            ],
+            [
+              77.215505,
+              28.3775297
+            ],
+            [
+              77.2024505,
+              28.3777414
+            ],
+            [
+              77.2026892,
+              28.3892871
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 136,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2157451,
+              28.3890753
+            ],
+            [
+              77.2288008,
+              28.3888623
+            ],
+            [
+              77.2285593,
+              28.3773168
+            ],
+            [
+              77.215505,
+              28.3775297
+            ],
+            [
+              77.2157451,
+              28.3890753
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 137,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2288008,
+              28.3888623
+            ],
+            [
+              77.2418564,
+              28.3886481
+            ],
+            [
+              77.2416135,
+              28.3771026
+            ],
+            [
+              77.2285593,
+              28.3773168
+            ],
+            [
+              77.2288008,
+              28.3888623
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 138,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2418564,
+              28.3886481
+            ],
+            [
+              77.2549119,
+              28.3884325
+            ],
+            [
+              77.2546675,
+              28.3768872
+            ],
+            [
+              77.2416135,
+              28.3771026
+            ],
+            [
+              77.2418564,
+              28.3886481
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 139,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2549119,
+              28.3884325
+            ],
+            [
+              77.2679672,
+              28.3882158
+            ],
+            [
+              77.2677214,
+              28.3766706
+            ],
+            [
+              77.2546675,
+              28.3768872
+            ],
+            [
+              77.2549119,
+              28.3884325
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 140,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2679672,
+              28.3882158
+            ],
+            [
+              77.2810223,
+              28.3879978
+            ],
+            [
+              77.2807751,
+              28.3764526
+            ],
+            [
+              77.2677214,
+              28.3766706
+            ],
+            [
+              77.2679672,
+              28.3882158
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 141,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2810223,
+              28.3879978
+            ],
+            [
+              77.2940773,
+              28.3877785
+            ],
+            [
+              77.2938287,
+              28.3762335
+            ],
+            [
+              77.2807751,
+              28.3764526
+            ],
+            [
+              77.2810223,
+              28.3879978
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 142,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2940773,
+              28.3877785
+            ],
+            [
+              77.3019307,
+              28.387646
+            ],
+            [
+              77.3016812,
+              28.376101
+            ],
+            [
+              77.2938287,
+              28.3762335
+            ],
+            [
+              77.2940773,
+              28.3877785
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 143,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0980098,
+              28.3793898
+            ],
+            [
+              77.1110654,
+              28.3791881
+            ],
+            [
+              77.1108367,
+              28.3676417
+            ],
+            [
+              77.0977826,
+              28.3678432
+            ],
+            [
+              77.0980098,
+              28.3793898
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 144,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1110654,
+              28.3791881
+            ],
+            [
+              77.1241208,
+              28.3789852
+            ],
+            [
+              77.1238908,
+              28.3674388
+            ],
+            [
+              77.1108367,
+              28.3676417
+            ],
+            [
+              77.1110654,
+              28.3791881
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 145,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1241208,
+              28.3789852
+            ],
+            [
+              77.1371761,
+              28.378781
+            ],
+            [
+              77.1369446,
+              28.3672348
+            ],
+            [
+              77.1238908,
+              28.3674388
+            ],
+            [
+              77.1241208,
+              28.3789852
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 146,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1371761,
+              28.378781
+            ],
+            [
+              77.1502313,
+              28.3785756
+            ],
+            [
+              77.1499984,
+              28.3670294
+            ],
+            [
+              77.1369446,
+              28.3672348
+            ],
+            [
+              77.1371761,
+              28.378781
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 147,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1502313,
+              28.3785756
+            ],
+            [
+              77.1632863,
+              28.3783689
+            ],
+            [
+              77.163052,
+              28.3668229
+            ],
+            [
+              77.1499984,
+              28.3670294
+            ],
+            [
+              77.1502313,
+              28.3785756
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 148,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1632863,
+              28.3783689
+            ],
+            [
+              77.1763412,
+              28.378161
+            ],
+            [
+              77.1761055,
+              28.366615
+            ],
+            [
+              77.163052,
+              28.3668229
+            ],
+            [
+              77.1632863,
+              28.3783689
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 149,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1763412,
+              28.378161
+            ],
+            [
+              77.1893959,
+              28.3779518
+            ],
+            [
+              77.1891588,
+              28.366406
+            ],
+            [
+              77.1761055,
+              28.366615
+            ],
+            [
+              77.1763412,
+              28.378161
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 150,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1893959,
+              28.3779518
+            ],
+            [
+              77.2024505,
+              28.3777414
+            ],
+            [
+              77.202212,
+              28.3661956
+            ],
+            [
+              77.1891588,
+              28.366406
+            ],
+            [
+              77.1893959,
+              28.3779518
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 151,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2024505,
+              28.3777414
+            ],
+            [
+              77.215505,
+              28.3775297
+            ],
+            [
+              77.215265,
+              28.3659841
+            ],
+            [
+              77.202212,
+              28.3661956
+            ],
+            [
+              77.2024505,
+              28.3777414
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 152,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.215505,
+              28.3775297
+            ],
+            [
+              77.2285593,
+              28.3773168
+            ],
+            [
+              77.2283179,
+              28.3657713
+            ],
+            [
+              77.215265,
+              28.3659841
+            ],
+            [
+              77.215505,
+              28.3775297
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 153,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2285593,
+              28.3773168
+            ],
+            [
+              77.2416135,
+              28.3771026
+            ],
+            [
+              77.2413707,
+              28.3655572
+            ],
+            [
+              77.2283179,
+              28.3657713
+            ],
+            [
+              77.2285593,
+              28.3773168
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 154,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2416135,
+              28.3771026
+            ],
+            [
+              77.2546675,
+              28.3768872
+            ],
+            [
+              77.2544233,
+              28.3653419
+            ],
+            [
+              77.2413707,
+              28.3655572
+            ],
+            [
+              77.2416135,
+              28.3771026
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 155,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2546675,
+              28.3768872
+            ],
+            [
+              77.2677214,
+              28.3766706
+            ],
+            [
+              77.2674758,
+              28.3651253
+            ],
+            [
+              77.2544233,
+              28.3653419
+            ],
+            [
+              77.2546675,
+              28.3768872
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 156,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2677214,
+              28.3766706
+            ],
+            [
+              77.2807751,
+              28.3764526
+            ],
+            [
+              77.2805281,
+              28.3649075
+            ],
+            [
+              77.2674758,
+              28.3651253
+            ],
+            [
+              77.2677214,
+              28.3766706
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 157,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2807751,
+              28.3764526
+            ],
+            [
+              77.2938287,
+              28.3762335
+            ],
+            [
+              77.2935803,
+              28.3646885
+            ],
+            [
+              77.2805281,
+              28.3649075
+            ],
+            [
+              77.2807751,
+              28.3764526
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 158,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2938287,
+              28.3762335
+            ],
+            [
+              77.3016812,
+              28.376101
+            ],
+            [
+              77.301432,
+              28.3645561
+            ],
+            [
+              77.2935803,
+              28.3646885
+            ],
+            [
+              77.2938287,
+              28.3762335
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 159,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0977826,
+              28.3678432
+            ],
+            [
+              77.1108367,
+              28.3676417
+            ],
+            [
+              77.1106082,
+              28.3560952
+            ],
+            [
+              77.0975555,
+              28.3562967
+            ],
+            [
+              77.0977826,
+              28.3678432
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 160,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1108367,
+              28.3676417
+            ],
+            [
+              77.1238908,
+              28.3674388
+            ],
+            [
+              77.1236608,
+              28.3558925
+            ],
+            [
+              77.1106082,
+              28.3560952
+            ],
+            [
+              77.1108367,
+              28.3676417
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 161,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1238908,
+              28.3674388
+            ],
+            [
+              77.1369446,
+              28.3672348
+            ],
+            [
+              77.1367133,
+              28.3556885
+            ],
+            [
+              77.1236608,
+              28.3558925
+            ],
+            [
+              77.1238908,
+              28.3674388
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 162,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1369446,
+              28.3672348
+            ],
+            [
+              77.1499984,
+              28.3670294
+            ],
+            [
+              77.1497656,
+              28.3554833
+            ],
+            [
+              77.1367133,
+              28.3556885
+            ],
+            [
+              77.1369446,
+              28.3672348
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 163,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1499984,
+              28.3670294
+            ],
+            [
+              77.163052,
+              28.3668229
+            ],
+            [
+              77.1628178,
+              28.3552768
+            ],
+            [
+              77.1497656,
+              28.3554833
+            ],
+            [
+              77.1499984,
+              28.3670294
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 164,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.163052,
+              28.3668229
+            ],
+            [
+              77.1761055,
+              28.366615
+            ],
+            [
+              77.1758699,
+              28.3550691
+            ],
+            [
+              77.1628178,
+              28.3552768
+            ],
+            [
+              77.163052,
+              28.3668229
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 165,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1761055,
+              28.366615
+            ],
+            [
+              77.1891588,
+              28.366406
+            ],
+            [
+              77.1889218,
+              28.3548601
+            ],
+            [
+              77.1758699,
+              28.3550691
+            ],
+            [
+              77.1761055,
+              28.366615
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 166,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1891588,
+              28.366406
+            ],
+            [
+              77.202212,
+              28.3661956
+            ],
+            [
+              77.2019736,
+              28.3546499
+            ],
+            [
+              77.1889218,
+              28.3548601
+            ],
+            [
+              77.1891588,
+              28.366406
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 167,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.202212,
+              28.3661956
+            ],
+            [
+              77.215265,
+              28.3659841
+            ],
+            [
+              77.2150252,
+              28.3544384
+            ],
+            [
+              77.2019736,
+              28.3546499
+            ],
+            [
+              77.202212,
+              28.3661956
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 168,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.215265,
+              28.3659841
+            ],
+            [
+              77.2283179,
+              28.3657713
+            ],
+            [
+              77.2280767,
+              28.3542257
+            ],
+            [
+              77.2150252,
+              28.3544384
+            ],
+            [
+              77.215265,
+              28.3659841
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 169,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2283179,
+              28.3657713
+            ],
+            [
+              77.2413707,
+              28.3655572
+            ],
+            [
+              77.2411281,
+              28.3540117
+            ],
+            [
+              77.2280767,
+              28.3542257
+            ],
+            [
+              77.2283179,
+              28.3657713
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 170,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2413707,
+              28.3655572
+            ],
+            [
+              77.2544233,
+              28.3653419
+            ],
+            [
+              77.2541793,
+              28.3537965
+            ],
+            [
+              77.2411281,
+              28.3540117
+            ],
+            [
+              77.2413707,
+              28.3655572
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 171,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2544233,
+              28.3653419
+            ],
+            [
+              77.2674758,
+              28.3651253
+            ],
+            [
+              77.2672303,
+              28.3535801
+            ],
+            [
+              77.2541793,
+              28.3537965
+            ],
+            [
+              77.2544233,
+              28.3653419
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 172,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2674758,
+              28.3651253
+            ],
+            [
+              77.2805281,
+              28.3649075
+            ],
+            [
+              77.2802813,
+              28.3533624
+            ],
+            [
+              77.2672303,
+              28.3535801
+            ],
+            [
+              77.2674758,
+              28.3651253
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 173,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2805281,
+              28.3649075
+            ],
+            [
+              77.2935803,
+              28.3646885
+            ],
+            [
+              77.293332,
+              28.3531434
+            ],
+            [
+              77.2802813,
+              28.3533624
+            ],
+            [
+              77.2805281,
+              28.3649075
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 174,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2935803,
+              28.3646885
+            ],
+            [
+              77.301432,
+              28.3645561
+            ],
+            [
+              77.3011828,
+              28.3530111
+            ],
+            [
+              77.293332,
+              28.3531434
+            ],
+            [
+              77.2935803,
+              28.3646885
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 175,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0975555,
+              28.3562967
+            ],
+            [
+              77.1106082,
+              28.3560952
+            ],
+            [
+              77.1103798,
+              28.3445487
+            ],
+            [
+              77.0973285,
+              28.3447501
+            ],
+            [
+              77.0975555,
+              28.3562967
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 176,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1106082,
+              28.3560952
+            ],
+            [
+              77.1236608,
+              28.3558925
+            ],
+            [
+              77.123431,
+              28.3443461
+            ],
+            [
+              77.1103798,
+              28.3445487
+            ],
+            [
+              77.1106082,
+              28.3560952
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 177,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1236608,
+              28.3558925
+            ],
+            [
+              77.1367133,
+              28.3556885
+            ],
+            [
+              77.136482,
+              28.3441422
+            ],
+            [
+              77.123431,
+              28.3443461
+            ],
+            [
+              77.1236608,
+              28.3558925
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 178,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1367133,
+              28.3556885
+            ],
+            [
+              77.1497656,
+              28.3554833
+            ],
+            [
+              77.149533,
+              28.3439371
+            ],
+            [
+              77.136482,
+              28.3441422
+            ],
+            [
+              77.1367133,
+              28.3556885
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 179,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1497656,
+              28.3554833
+            ],
+            [
+              77.1628178,
+              28.3552768
+            ],
+            [
+              77.1625838,
+              28.3437307
+            ],
+            [
+              77.149533,
+              28.3439371
+            ],
+            [
+              77.1497656,
+              28.3554833
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 180,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1628178,
+              28.3552768
+            ],
+            [
+              77.1758699,
+              28.3550691
+            ],
+            [
+              77.1756344,
+              28.3435231
+            ],
+            [
+              77.1625838,
+              28.3437307
+            ],
+            [
+              77.1628178,
+              28.3552768
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 181,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1758699,
+              28.3550691
+            ],
+            [
+              77.1889218,
+              28.3548601
+            ],
+            [
+              77.1886849,
+              28.3433142
+            ],
+            [
+              77.1756344,
+              28.3435231
+            ],
+            [
+              77.1758699,
+              28.3550691
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 182,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1889218,
+              28.3548601
+            ],
+            [
+              77.2019736,
+              28.3546499
+            ],
+            [
+              77.2017353,
+              28.3431041
+            ],
+            [
+              77.1886849,
+              28.3433142
+            ],
+            [
+              77.1889218,
+              28.3548601
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 183,
+        "region": "SW",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2019736,
+              28.3546499
+            ],
+            [
+              77.2150252,
+              28.3544384
+            ],
+            [
+              77.2147855,
+              28.3428927
+            ],
+            [
+              77.2017353,
+              28.3431041
+            ],
+            [
+              77.2019736,
+              28.3546499
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 184,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2150252,
+              28.3544384
+            ],
+            [
+              77.2280767,
+              28.3542257
+            ],
+            [
+              77.2278356,
+              28.3426801
+            ],
+            [
+              77.2147855,
+              28.3428927
+            ],
+            [
+              77.2150252,
+              28.3544384
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 185,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2280767,
+              28.3542257
+            ],
+            [
+              77.2411281,
+              28.3540117
+            ],
+            [
+              77.2408855,
+              28.3424663
+            ],
+            [
+              77.2278356,
+              28.3426801
+            ],
+            [
+              77.2280767,
+              28.3542257
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 186,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2411281,
+              28.3540117
+            ],
+            [
+              77.2541793,
+              28.3537965
+            ],
+            [
+              77.2539354,
+              28.3422512
+            ],
+            [
+              77.2408855,
+              28.3424663
+            ],
+            [
+              77.2411281,
+              28.3540117
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 187,
+        "region": "SE",
+        "split": "validation",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2541793,
+              28.3537965
+            ],
+            [
+              77.2672303,
+              28.3535801
+            ],
+            [
+              77.266985,
+              28.3420348
+            ],
+            [
+              77.2539354,
+              28.3422512
+            ],
+            [
+              77.2541793,
+              28.3537965
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 188,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2672303,
+              28.3535801
+            ],
+            [
+              77.2802813,
+              28.3533624
+            ],
+            [
+              77.2800345,
+              28.3418172
+            ],
+            [
+              77.266985,
+              28.3420348
+            ],
+            [
+              77.2672303,
+              28.3535801
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 189,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2802813,
+              28.3533624
+            ],
+            [
+              77.293332,
+              28.3531434
+            ],
+            [
+              77.2930839,
+              28.3415984
+            ],
+            [
+              77.2800345,
+              28.3418172
+            ],
+            [
+              77.2802813,
+              28.3533624
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 190,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.293332,
+              28.3531434
+            ],
+            [
+              77.3011828,
+              28.3530111
+            ],
+            [
+              77.3009338,
+              28.3414661
+            ],
+            [
+              77.2930839,
+              28.3415984
+            ],
+            [
+              77.293332,
+              28.3531434
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 191,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0973285,
+              28.3447501
+            ],
+            [
+              77.1103798,
+              28.3445487
+            ],
+            [
+              77.1101515,
+              28.3330022
+            ],
+            [
+              77.0971016,
+              28.3332035
+            ],
+            [
+              77.0973285,
+              28.3447501
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 192,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1103798,
+              28.3445487
+            ],
+            [
+              77.123431,
+              28.3443461
+            ],
+            [
+              77.1232013,
+              28.3327997
+            ],
+            [
+              77.1101515,
+              28.3330022
+            ],
+            [
+              77.1103798,
+              28.3445487
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 193,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.123431,
+              28.3443461
+            ],
+            [
+              77.136482,
+              28.3441422
+            ],
+            [
+              77.136251,
+              28.3325959
+            ],
+            [
+              77.1232013,
+              28.3327997
+            ],
+            [
+              77.123431,
+              28.3443461
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 194,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.136482,
+              28.3441422
+            ],
+            [
+              77.149533,
+              28.3439371
+            ],
+            [
+              77.1493005,
+              28.3323909
+            ],
+            [
+              77.136251,
+              28.3325959
+            ],
+            [
+              77.136482,
+              28.3441422
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 195,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.149533,
+              28.3439371
+            ],
+            [
+              77.1625838,
+              28.3437307
+            ],
+            [
+              77.1623499,
+              28.3321846
+            ],
+            [
+              77.1493005,
+              28.3323909
+            ],
+            [
+              77.149533,
+              28.3439371
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 196,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1625838,
+              28.3437307
+            ],
+            [
+              77.1756344,
+              28.3435231
+            ],
+            [
+              77.1753991,
+              28.3319771
+            ],
+            [
+              77.1623499,
+              28.3321846
+            ],
+            [
+              77.1625838,
+              28.3437307
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 197,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1756344,
+              28.3435231
+            ],
+            [
+              77.1886849,
+              28.3433142
+            ],
+            [
+              77.1884482,
+              28.3317683
+            ],
+            [
+              77.1753991,
+              28.3319771
+            ],
+            [
+              77.1756344,
+              28.3435231
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 198,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1886849,
+              28.3433142
+            ],
+            [
+              77.2017353,
+              28.3431041
+            ],
+            [
+              77.2014972,
+              28.3315583
+            ],
+            [
+              77.1884482,
+              28.3317683
+            ],
+            [
+              77.1886849,
+              28.3433142
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 199,
+        "region": "SW",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2017353,
+              28.3431041
+            ],
+            [
+              77.2147855,
+              28.3428927
+            ],
+            [
+              77.214546,
+              28.331347
+            ],
+            [
+              77.2014972,
+              28.3315583
+            ],
+            [
+              77.2017353,
+              28.3431041
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 200,
+        "region": "SE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2147855,
+              28.3428927
+            ],
+            [
+              77.2278356,
+              28.3426801
+            ],
+            [
+              77.2275947,
+              28.3311345
+            ],
+            [
+              77.214546,
+              28.331347
+            ],
+            [
+              77.2147855,
+              28.3428927
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 201,
+        "region": "SE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2278356,
+              28.3426801
+            ],
+            [
+              77.2408855,
+              28.3424663
+            ],
+            [
+              77.2406432,
+              28.3309208
+            ],
+            [
+              77.2275947,
+              28.3311345
+            ],
+            [
+              77.2278356,
+              28.3426801
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 202,
+        "region": "SE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2408855,
+              28.3424663
+            ],
+            [
+              77.2539354,
+              28.3422512
+            ],
+            [
+              77.2536916,
+              28.3307058
+            ],
+            [
+              77.2406432,
+              28.3309208
+            ],
+            [
+              77.2408855,
+              28.3424663
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 203,
+        "region": "SE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2539354,
+              28.3422512
+            ],
+            [
+              77.266985,
+              28.3420348
+            ],
+            [
+              77.2667398,
+              28.3304895
+            ],
+            [
+              77.2536916,
+              28.3307058
+            ],
+            [
+              77.2539354,
+              28.3422512
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 204,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.266985,
+              28.3420348
+            ],
+            [
+              77.2800345,
+              28.3418172
+            ],
+            [
+              77.2797879,
+              28.330272
+            ],
+            [
+              77.2667398,
+              28.3304895
+            ],
+            [
+              77.266985,
+              28.3420348
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 205,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2800345,
+              28.3418172
+            ],
+            [
+              77.2930839,
+              28.3415984
+            ],
+            [
+              77.2928359,
+              28.3300533
+            ],
+            [
+              77.2797879,
+              28.330272
+            ],
+            [
+              77.2800345,
+              28.3418172
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 206,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2930839,
+              28.3415984
+            ],
+            [
+              77.3009338,
+              28.3414661
+            ],
+            [
+              77.300685,
+              28.3299211
+            ],
+            [
+              77.2928359,
+              28.3300533
+            ],
+            [
+              77.2930839,
+              28.3415984
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 207,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0971016,
+              28.3332035
+            ],
+            [
+              77.1101515,
+              28.3330022
+            ],
+            [
+              77.1099234,
+              28.3214557
+            ],
+            [
+              77.0968749,
+              28.3216569
+            ],
+            [
+              77.0971016,
+              28.3332035
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 208,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1101515,
+              28.3330022
+            ],
+            [
+              77.1232013,
+              28.3327997
+            ],
+            [
+              77.1229718,
+              28.3212533
+            ],
+            [
+              77.1099234,
+              28.3214557
+            ],
+            [
+              77.1101515,
+              28.3330022
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 209,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1232013,
+              28.3327997
+            ],
+            [
+              77.136251,
+              28.3325959
+            ],
+            [
+              77.13602,
+              28.3210496
+            ],
+            [
+              77.1229718,
+              28.3212533
+            ],
+            [
+              77.1232013,
+              28.3327997
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 210,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.136251,
+              28.3325959
+            ],
+            [
+              77.1493005,
+              28.3323909
+            ],
+            [
+              77.1490681,
+              28.3208446
+            ],
+            [
+              77.13602,
+              28.3210496
+            ],
+            [
+              77.136251,
+              28.3325959
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 211,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1493005,
+              28.3323909
+            ],
+            [
+              77.1623499,
+              28.3321846
+            ],
+            [
+              77.1621161,
+              28.3206385
+            ],
+            [
+              77.1490681,
+              28.3208446
+            ],
+            [
+              77.1493005,
+              28.3323909
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 212,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1623499,
+              28.3321846
+            ],
+            [
+              77.1753991,
+              28.3319771
+            ],
+            [
+              77.1751639,
+              28.320431
+            ],
+            [
+              77.1621161,
+              28.3206385
+            ],
+            [
+              77.1623499,
+              28.3321846
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 213,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1753991,
+              28.3319771
+            ],
+            [
+              77.1884482,
+              28.3317683
+            ],
+            [
+              77.1882116,
+              28.3202224
+            ],
+            [
+              77.1751639,
+              28.320431
+            ],
+            [
+              77.1753991,
+              28.3319771
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 214,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1884482,
+              28.3317683
+            ],
+            [
+              77.2014972,
+              28.3315583
+            ],
+            [
+              77.2012592,
+              28.3200125
+            ],
+            [
+              77.1882116,
+              28.3202224
+            ],
+            [
+              77.1884482,
+              28.3317683
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 215,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2014972,
+              28.3315583
+            ],
+            [
+              77.214546,
+              28.331347
+            ],
+            [
+              77.2143066,
+              28.3198013
+            ],
+            [
+              77.2012592,
+              28.3200125
+            ],
+            [
+              77.2014972,
+              28.3315583
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 216,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.214546,
+              28.331347
+            ],
+            [
+              77.2275947,
+              28.3311345
+            ],
+            [
+              77.2273538,
+              28.3195889
+            ],
+            [
+              77.2143066,
+              28.3198013
+            ],
+            [
+              77.214546,
+              28.331347
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 217,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2275947,
+              28.3311345
+            ],
+            [
+              77.2406432,
+              28.3309208
+            ],
+            [
+              77.240401,
+              28.3193752
+            ],
+            [
+              77.2273538,
+              28.3195889
+            ],
+            [
+              77.2275947,
+              28.3311345
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 218,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2406432,
+              28.3309208
+            ],
+            [
+              77.2536916,
+              28.3307058
+            ],
+            [
+              77.253448,
+              28.3191603
+            ],
+            [
+              77.240401,
+              28.3193752
+            ],
+            [
+              77.2406432,
+              28.3309208
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 219,
+        "region": "SE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2536916,
+              28.3307058
+            ],
+            [
+              77.2667398,
+              28.3304895
+            ],
+            [
+              77.2664948,
+              28.3189442
+            ],
+            [
+              77.253448,
+              28.3191603
+            ],
+            [
+              77.2536916,
+              28.3307058
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 220,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2667398,
+              28.3304895
+            ],
+            [
+              77.2797879,
+              28.330272
+            ],
+            [
+              77.2795415,
+              28.3187268
+            ],
+            [
+              77.2664948,
+              28.3189442
+            ],
+            [
+              77.2667398,
+              28.3304895
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 221,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2797879,
+              28.330272
+            ],
+            [
+              77.2928359,
+              28.3300533
+            ],
+            [
+              77.2925881,
+              28.3185082
+            ],
+            [
+              77.2795415,
+              28.3187268
+            ],
+            [
+              77.2797879,
+              28.330272
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 222,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2928359,
+              28.3300533
+            ],
+            [
+              77.300685,
+              28.3299211
+            ],
+            [
+              77.3004363,
+              28.318376
+            ],
+            [
+              77.2925881,
+              28.3185082
+            ],
+            [
+              77.2928359,
+              28.3300533
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 223,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0968749,
+              28.3216569
+            ],
+            [
+              77.1099234,
+              28.3214557
+            ],
+            [
+              77.1096954,
+              28.3099092
+            ],
+            [
+              77.0966483,
+              28.3101103
+            ],
+            [
+              77.0968749,
+              28.3216569
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 224,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1099234,
+              28.3214557
+            ],
+            [
+              77.1229718,
+              28.3212533
+            ],
+            [
+              77.1227424,
+              28.3097068
+            ],
+            [
+              77.1096954,
+              28.3099092
+            ],
+            [
+              77.1099234,
+              28.3214557
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 225,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1229718,
+              28.3212533
+            ],
+            [
+              77.13602,
+              28.3210496
+            ],
+            [
+              77.1357892,
+              28.3095032
+            ],
+            [
+              77.1227424,
+              28.3097068
+            ],
+            [
+              77.1229718,
+              28.3212533
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 226,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.13602,
+              28.3210496
+            ],
+            [
+              77.1490681,
+              28.3208446
+            ],
+            [
+              77.1488359,
+              28.3092984
+            ],
+            [
+              77.1357892,
+              28.3095032
+            ],
+            [
+              77.13602,
+              28.3210496
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 227,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1490681,
+              28.3208446
+            ],
+            [
+              77.1621161,
+              28.3206385
+            ],
+            [
+              77.1618825,
+              28.3090923
+            ],
+            [
+              77.1488359,
+              28.3092984
+            ],
+            [
+              77.1490681,
+              28.3208446
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 228,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1621161,
+              28.3206385
+            ],
+            [
+              77.1751639,
+              28.320431
+            ],
+            [
+              77.1749289,
+              28.308885
+            ],
+            [
+              77.1618825,
+              28.3090923
+            ],
+            [
+              77.1621161,
+              28.3206385
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 229,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1751639,
+              28.320431
+            ],
+            [
+              77.1882116,
+              28.3202224
+            ],
+            [
+              77.1879752,
+              28.3086764
+            ],
+            [
+              77.1749289,
+              28.308885
+            ],
+            [
+              77.1751639,
+              28.320431
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 230,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1882116,
+              28.3202224
+            ],
+            [
+              77.2012592,
+              28.3200125
+            ],
+            [
+              77.2010213,
+              28.3084666
+            ],
+            [
+              77.1879752,
+              28.3086764
+            ],
+            [
+              77.1882116,
+              28.3202224
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 231,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2012592,
+              28.3200125
+            ],
+            [
+              77.2143066,
+              28.3198013
+            ],
+            [
+              77.2140673,
+              28.3082555
+            ],
+            [
+              77.2010213,
+              28.3084666
+            ],
+            [
+              77.2012592,
+              28.3200125
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 232,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2143066,
+              28.3198013
+            ],
+            [
+              77.2273538,
+              28.3195889
+            ],
+            [
+              77.2271132,
+              28.3080432
+            ],
+            [
+              77.2140673,
+              28.3082555
+            ],
+            [
+              77.2143066,
+              28.3198013
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 233,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2273538,
+              28.3195889
+            ],
+            [
+              77.240401,
+              28.3193752
+            ],
+            [
+              77.2401589,
+              28.3078297
+            ],
+            [
+              77.2271132,
+              28.3080432
+            ],
+            [
+              77.2273538,
+              28.3195889
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 234,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.240401,
+              28.3193752
+            ],
+            [
+              77.253448,
+              28.3191603
+            ],
+            [
+              77.2532045,
+              28.3076149
+            ],
+            [
+              77.2401589,
+              28.3078297
+            ],
+            [
+              77.240401,
+              28.3193752
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 235,
+        "region": "SE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.253448,
+              28.3191603
+            ],
+            [
+              77.2664948,
+              28.3189442
+            ],
+            [
+              77.2662499,
+              28.3073989
+            ],
+            [
+              77.2532045,
+              28.3076149
+            ],
+            [
+              77.253448,
+              28.3191603
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 236,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2664948,
+              28.3189442
+            ],
+            [
+              77.2795415,
+              28.3187268
+            ],
+            [
+              77.2792952,
+              28.3071816
+            ],
+            [
+              77.2662499,
+              28.3073989
+            ],
+            [
+              77.2664948,
+              28.3189442
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 237,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2795415,
+              28.3187268
+            ],
+            [
+              77.2925881,
+              28.3185082
+            ],
+            [
+              77.2923404,
+              28.306963
+            ],
+            [
+              77.2792952,
+              28.3071816
+            ],
+            [
+              77.2795415,
+              28.3187268
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.6384,
+        "block_id": 238,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2925881,
+              28.3185082
+            ],
+            [
+              77.3004363,
+              28.318376
+            ],
+            [
+              77.3001878,
+              28.306831
+            ],
+            [
+              77.2923404,
+              28.306963
+            ],
+            [
+              77.2925881,
+              28.3185082
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.9856,
+        "block_id": 239,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.0966483,
+              28.3101103
+            ],
+            [
+              77.1096954,
+              28.3099092
+            ],
+            [
+              77.109496,
+              28.2998059
+            ],
+            [
+              77.0964501,
+              28.3000069
+            ],
+            [
+              77.0966483,
+              28.3101103
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 240,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1096954,
+              28.3099092
+            ],
+            [
+              77.1227424,
+              28.3097068
+            ],
+            [
+              77.1225417,
+              28.2996037
+            ],
+            [
+              77.109496,
+              28.2998059
+            ],
+            [
+              77.1096954,
+              28.3099092
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 241,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1227424,
+              28.3097068
+            ],
+            [
+              77.1357892,
+              28.3095032
+            ],
+            [
+              77.1355873,
+              28.2994002
+            ],
+            [
+              77.1225417,
+              28.2996037
+            ],
+            [
+              77.1227424,
+              28.3097068
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 242,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1357892,
+              28.3095032
+            ],
+            [
+              77.1488359,
+              28.3092984
+            ],
+            [
+              77.1486328,
+              28.2991954
+            ],
+            [
+              77.1355873,
+              28.2994002
+            ],
+            [
+              77.1357892,
+              28.3095032
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 243,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1488359,
+              28.3092984
+            ],
+            [
+              77.1618825,
+              28.3090923
+            ],
+            [
+              77.1616781,
+              28.2989894
+            ],
+            [
+              77.1486328,
+              28.2991954
+            ],
+            [
+              77.1488359,
+              28.3092984
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 244,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1618825,
+              28.3090923
+            ],
+            [
+              77.1749289,
+              28.308885
+            ],
+            [
+              77.1747233,
+              28.2987822
+            ],
+            [
+              77.1616781,
+              28.2989894
+            ],
+            [
+              77.1618825,
+              28.3090923
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 245,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1749289,
+              28.308885
+            ],
+            [
+              77.1879752,
+              28.3086764
+            ],
+            [
+              77.1877684,
+              28.2985737
+            ],
+            [
+              77.1747233,
+              28.2987822
+            ],
+            [
+              77.1749289,
+              28.308885
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 246,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.1879752,
+              28.3086764
+            ],
+            [
+              77.2010213,
+              28.3084666
+            ],
+            [
+              77.2008133,
+              28.298364
+            ],
+            [
+              77.1877684,
+              28.2985737
+            ],
+            [
+              77.1879752,
+              28.3086764
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 247,
+        "region": "SW",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2010213,
+              28.3084666
+            ],
+            [
+              77.2140673,
+              28.3082555
+            ],
+            [
+              77.2138581,
+              28.298153
+            ],
+            [
+              77.2008133,
+              28.298364
+            ],
+            [
+              77.2010213,
+              28.3084666
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 248,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2140673,
+              28.3082555
+            ],
+            [
+              77.2271132,
+              28.3080432
+            ],
+            [
+              77.2269027,
+              28.2979408
+            ],
+            [
+              77.2138581,
+              28.298153
+            ],
+            [
+              77.2140673,
+              28.3082555
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 249,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2271132,
+              28.3080432
+            ],
+            [
+              77.2401589,
+              28.3078297
+            ],
+            [
+              77.2399472,
+              28.2977273
+            ],
+            [
+              77.2269027,
+              28.2979408
+            ],
+            [
+              77.2271132,
+              28.3080432
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 250,
+        "region": "SE",
+        "split": "train",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2401589,
+              28.3078297
+            ],
+            [
+              77.2532045,
+              28.3076149
+            ],
+            [
+              77.2529916,
+              28.2975126
+            ],
+            [
+              77.2399472,
+              28.2977273
+            ],
+            [
+              77.2401589,
+              28.3078297
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 251,
+        "region": "SE",
+        "split": "buffer",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2532045,
+              28.3076149
+            ],
+            [
+              77.2662499,
+              28.3073989
+            ],
+            [
+              77.2660358,
+              28.2972967
+            ],
+            [
+              77.2529916,
+              28.2975126
+            ],
+            [
+              77.2532045,
+              28.3076149
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 252,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2662499,
+              28.3073989
+            ],
+            [
+              77.2792952,
+              28.3071816
+            ],
+            [
+              77.2790798,
+              28.2970795
+            ],
+            [
+              77.2660358,
+              28.2972967
+            ],
+            [
+              77.2662499,
+              28.3073989
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 253,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2792952,
+              28.3071816
+            ],
+            [
+              77.2923404,
+              28.306963
+            ],
+            [
+              77.2921237,
+              28.296861
+            ],
+            [
+              77.2790798,
+              28.2970795
+            ],
+            [
+              77.2792952,
+              28.3071816
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 1.4336,
+        "block_id": 254,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.2923404,
+              28.306963
+            ],
+            [
+              77.3001878,
+              28.306831
+            ],
+            [
+              77.2999704,
+              28.296729
+            ],
+            [
+              77.2921237,
+              28.296861
+            ],
+            [
+              77.2923404,
+              28.306963
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "area_km2": 0.8624,
+        "block_id": 255,
+        "region": "SE",
+        "split": "test",
+        "stratum": "grouped_random_block"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
