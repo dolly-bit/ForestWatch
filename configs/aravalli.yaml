@@ -54,4 +54,11 @@ model:
   checkpoint: models/unet_change.pt
 
 
+quality:
+  dedupe_scenes: true
+  drop_hazy_scenes: true
+  hazy_ndvi_drop: 0.10
+  hazy_red_rise: 0.03
+  min_scenes_kept: 6
+
 

@@ -10,6 +10,7 @@ import numpy as np
 from .data.stack_io import load_stack
 from .preprocess.indices import ndvi as ndvi_fn
 from .preprocess.composite import median_composite
+from .preprocess.scene_quality import scene_stats, select_scenes
 from .preprocess.splits import assign_block_splits, pixel_split_map, block_id_map, block_shape
 from .change.baseline import detect_change, remove_small_components
 from .change.seasonal import persistence_mask
@@ -20,23 +21,39 @@ BANDS = ("red", "nir", "swir22")
 N_CHANNELS = 13          # 4 before + 4 after + 4 difference + 1 validity
 
 
-def load_window(root, name: str, min_obs: int = 2) -> dict:
-    """Load every stack in data/stacks/<name>/ and build median composites."""
+def load_window(root, name: str, min_obs: int = 2, quality: dict | None = None) -> dict:
+    """Load the stacks in data/stacks/<name>/, select scenes (see preprocess/scene_quality.py), build median composites.
+    `quality` is the optional 'quality:' section of the config. The result lists which scenes were used or dropped."""
     files = sorted((Path(root) / "data" / "stacks" / name).glob("*.npz"))
     if not files:
         raise FileNotFoundError(f"No stacks in data/stacks/{name}. Run search_scenes.py and build_stacks.py first.")
-    lists = {k: [] for k in (*BANDS, "ndvi", "valid")}
-    meta = None
+    loaded, ids, stats = [], [], []
     for f in files:
         arr, m = load_stack(f)
+        nd = ndvi_fn(arr["nir"], arr["red"])
+        loaded.append((arr, nd, m))
+        ids.append(m.get("scene_id", f.stem))
+        stats.append(scene_stats(arr, nd))
+    keep, decisions = select_scenes(ids, stats, quality)
+    lists = {k: [] for k in (*BANDS, "ndvi", "valid")}
+    meta = None
+    for (arr, nd, m), k in zip(loaded, keep):
+        if not k:
+            continue
         meta = meta or m
-        for k in BANDS:
-            lists[k].append(arr[k])
-        lists["ndvi"].append(ndvi_fn(arr["nir"], arr["red"]))
+        for b in BANDS:
+            lists[b].append(arr[b])
+        lists["ndvi"].append(nd)
         lists["valid"].append(arr["valid"])
+    used = [{"file": f.name, "scene_id": i, **{k: round(v, 4) if isinstance(v, float) else v for k, v in st.items()}}
+            for f, i, st, k in zip(files, ids, stats, keep) if k]
+    dropped = [{"file": files[d["index"]].name, "scene_id": ids[d["index"]], "reason": d["reason"]}
+               for d in decisions if d["index"] is not None and not d["kept"]]
+    notes = [d["reason"] for d in decisions if d["index"] is None]
     valid_s = np.stack(lists["valid"])
     ndvi_s = np.stack(lists["ndvi"])
-    out = {"n_dates": len(files), "meta": meta, "ndvi_series": ndvi_s, "valid_series": valid_s}
+    out = {"n_dates": len(used), "meta": meta, "ndvi_series": ndvi_s, "valid_series": valid_s,
+           "scenes_used": used, "scenes_dropped": dropped, "scene_notes": notes}
     for k in (*BANDS, "ndvi"):
         comp, ok = median_composite(np.stack(lists[k]), valid_s, min_obs)
         out[k] = comp
@@ -68,7 +85,8 @@ def run_pipeline(cfg: dict, root, method: str = "baseline", seasonal: bool | Non
     root = Path(root)
     sc = cfg.get("seasonal", {})
     min_obs = cfg["cloud_mask"]["min_valid_observations"]
-    before, after = load_window(root, "before", min_obs), load_window(root, "after", min_obs)
+    q = cfg.get("quality")
+    before, after = load_window(root, "before", min_obs, q), load_window(root, "after", min_obs, q)
     b = cfg["baseline"]
 
     if method == "baseline":
@@ -102,7 +120,9 @@ def run_pipeline(cfg: dict, root, method: str = "baseline", seasonal: bool | Non
                              cfg["region"].get("output_crs", "EPSG:4326"),
                              cfg["region"]["resolution_m"], b["min_area_pixels"])
     out = {"mask": mask, "score": score, "features": feats, "meta": meta,
-           "valid": before["valid"] & after["valid"], "method": method, "seasonal": bool(use_seasonal)}
+           "valid": before["valid"] & after["valid"], "method": method, "seasonal": bool(use_seasonal),
+           "scene_selection": {w: {"used": len(d["scenes_used"]), "dropped": d["scenes_dropped"], "notes": d["scene_notes"]}
+                               for w, d in (("before", before), ("after", after))}}
     if return_windows:
         out["windows"] = (before, after)
     return out
