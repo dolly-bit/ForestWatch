@@ -25,11 +25,10 @@ cloud_mask:
 
 reflectance:
   mode: auto
-  # Used only when Earth Search BOA metadata and raster scale/offset are unavailable.
-  # boa_add_offset: 0
-  # In auto mode, stop if a negative declared red offset creates too many exact-zero clear pixels.
-  max_red_zero_fraction: 0.20
-  on_metadata_conflict: error
+  # Auto mode accepts only earthsearch:boa_offset_applied=true.
+  # For false/missing flags, validate the original product before setting an explicit DN offset.
+  # Example only; do not uncomment without independent source-product validation:
+  # boa_add_offset: -1000
 
 baseline:
   forest_ndvi_min: 0.40                # pixel must have been vegetated before
