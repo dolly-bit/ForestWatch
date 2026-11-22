@@ -70,10 +70,13 @@ Full stack (Postgres + Redis + worker + web):
 - Duplicate processing versions are filtered before download; the highest version is retained.
 - Reflectance calibration preserves the Earth Search BOA flag and raster scale/offset metadata,
   then records the selected rule per band in each stack's JSON sidecar.
-- The legacy Earth Search collection has documented metadata inconsistencies. If the BOA flag,
-  declared negative offset and red-pixel diagnostic conflict, stack creation stops by default.
-  Validate the source product before explicitly overriding calibration.
-- Exact-zero red share is a conflict diagnostic, not an automatic calibration selector.
+- In auto mode, only `earthsearch:boa_offset_applied=true` is accepted: the asset scale is
+  applied with no additional offset. A false or missing flag is rejected as ambiguous; raster
+  scale/offset and acquisition date alone are not treated as proof of the correct correction.
+- For ambiguous scenes, validate the original Sentinel-2 product metadata independently before
+  setting `reflectance.boa_add_offset` in the config or selecting an explicit non-auto mode.
+  The explicit override is recorded in the stack sidecar; it is not an automatic fallback.
+- Exact-zero red share is retained as a diagnostic only. It does not validate or select calibration.
 - Split: contiguous groups of blocks (+ buffer) per train/val/test. Scattered random blocks plus a buffer
   left almost no training data (see tests/test_phase2.py).
 - Baseline "confidence" is a heuristic NDVI-drop score; U-Net confidence is the mean model probability.
