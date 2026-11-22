@@ -32,7 +32,7 @@ Satellite-based **vegetation-loss monitoring** for the Aravalli range (Delhi NCR
 ## 2. Real data
     pip install -e ".[geo]"
     # review the study-area bbox and date windows in configs/aravalli.yaml
-    python scripts/search_scenes.py         # catalogs -> data/raw/
+    python scripts/search_scenes.py         # refresh catalogs with preserved STAC item properties
     # first run a one-scene trial in an isolated output folder
     python scripts/build_stacks.py --window before --date 2022-10-16 --limit 1 --out-root data/stacks_test
     # inspect the stack JSON sidecar and reflectance values before the full build
@@ -66,7 +66,14 @@ Full stack (Postgres + Redis + worker + web):
     # Needs data/stacks/{before,after}/*.npz on the host first.
 
 ## Method notes
-- Same-season windows (e.g. Oct-Dec of two years) avoid dry-season leaf-drop false alarms.
+- Same-season windows (e.g. Oct-Dec of two years) reduce seasonal leaf-drop confounding.
+- Duplicate processing versions are filtered before download; the highest version is retained.
+- Reflectance calibration preserves the Earth Search BOA flag and raster scale/offset metadata,
+  then records the selected rule per band in each stack's JSON sidecar.
+- The legacy Earth Search collection has documented metadata inconsistencies. If the BOA flag,
+  declared negative offset and red-pixel diagnostic conflict, stack creation stops by default.
+  Validate the source product before explicitly overriding calibration.
+- Exact-zero red share is a conflict diagnostic, not an automatic calibration selector.
 - Split: contiguous groups of blocks (+ buffer) per train/val/test. Scattered random blocks plus a buffer
   left almost no training data (see tests/test_phase2.py).
 - Baseline "confidence" is a heuristic NDVI-drop score; U-Net confidence is the mean model probability.
