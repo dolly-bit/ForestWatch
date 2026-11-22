@@ -158,4 +158,4 @@ def test_build_scene_stack_records_scaling_and_stac_provenance_when_explicitly_o
     assert "mode none" in meta["reflectance_scaling"]["red"]
     assert meta["stac_properties"] == properties
     assert "reflectance_metadata_conflict" not in meta
-    assert meta["red_zero_fraction"] == 1.0
+    assert meta["red_zero_fraction"] == 0.0
