@@ -24,7 +24,7 @@ def make_target_grid(bbox, crs, resolution_m=10):
     x0 = np.floor(x0 / resolution_m) * resolution_m
     y1 = np.ceil(y1 / resolution_m) * resolution_m
     width = int(np.ceil((x1 - x0) / resolution_m))
-    height = int(np.ceil((y1 - y1) / resolution_m)) if False else int(np.ceil((y1 - y0) / resolution_m))
+    height = int(np.ceil((y1 - y0) / resolution_m))
     return from_origin(x0, y1, resolution_m, resolution_m), width, height
 
 
