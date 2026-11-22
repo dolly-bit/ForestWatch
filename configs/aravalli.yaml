@@ -27,6 +27,9 @@ reflectance:
   mode: auto
   # Used only when Earth Search BOA metadata and raster scale/offset are unavailable.
   # boa_add_offset: 0
+  # In auto mode, stop if a negative declared red offset creates too many exact-zero clear pixels.
+  max_red_zero_fraction: 0.20
+  on_metadata_conflict: error
 
 baseline:
   forest_ndvi_min: 0.40                # pixel must have been vegetated before
