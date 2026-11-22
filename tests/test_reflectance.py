@@ -1,6 +1,7 @@
 from datetime import date
 
 import numpy as np
+import pytest
 
 from forestwatch.preprocess.indices import scale_reflectance, scale_with_catalog, ndvi
 
@@ -31,20 +32,7 @@ def test_wrong_offset_saturates_ndvi_which_is_the_symptom_we_saw():
     assert 0.7 < right[0] < 0.8
 
 
-def test_auto_uses_earth_search_flag_when_catalog_offset_conflicts():
-    from forestwatch.data.download import _reflectance
-
-    dn = np.array([600.0, 800.0, 1200.0])
-    scene = {
-        "raster": {"red": {"scale": 0.0001, "offset": -0.1}},
-        "stac_properties": {"earthsearch:boa_offset_applied": False},
-    }
-    result, decision = _reflectance(dn, "red", scene, {}, date(2024, 1, 1))
-    assert np.allclose(result, [0.06, 0.08, 0.12])
-    assert "boa_offset_applied=false" in decision
-
-
-def test_auto_uses_catalog_offset_when_earth_search_says_it_was_applied():
+def test_auto_flag_true_means_offset_is_already_applied():
     from forestwatch.data.download import _reflectance
 
     dn = np.array([1300.0, 5000.0])
@@ -53,11 +41,24 @@ def test_auto_uses_catalog_offset_when_earth_search_says_it_was_applied():
         "stac_properties": {"earthsearch:boa_offset_applied": True},
     }
     result, decision = _reflectance(dn, "red", scene, {}, date(2024, 1, 1))
+    assert np.allclose(result, [0.13, 0.5])
+    assert "offset=0" in decision
+
+
+def test_auto_flag_false_applies_catalog_offset():
+    from forestwatch.data.download import _reflectance
+
+    dn = np.array([1300.0, 5000.0])
+    scene = {
+        "raster": {"red": {"scale": 0.0001, "offset": -0.1}},
+        "stac_properties": {"earthsearch:boa_offset_applied": False},
+    }
+    result, decision = _reflectance(dn, "red", scene, {}, date(2024, 1, 1))
     assert np.allclose(result, [0.03, 0.4])
-    assert "boa_offset_applied=true" in decision
+    assert "offset=-0.1" in decision
 
 
-def test_auto_falls_back_to_catalog_when_earth_search_flag_is_missing():
+def test_auto_uses_catalog_when_earth_search_flag_is_missing():
     from forestwatch.data.download import _reflectance
 
     dn = np.array([1300.0])
@@ -76,7 +77,7 @@ def test_scaling_modes_and_config_override():
     assert np.isclose(auto[0], 0.03) and "catalog" in decision
 
     no_offset, decision = _reflectance(dn, "red", scene, {"reflectance": {"mode": "none"}}, acquisition)
-    assert np.isclose(no_offset[0], 0.13) and "no offset" in decision
+    assert np.isclose(no_offset[0], 0.13) and "no additional offset" in decision
 
     legacy, decision = _reflectance(dn, "red", scene, {"reflectance": {"mode": "date_rule"}}, acquisition)
     assert np.isclose(legacy[0], 0.03) and "date_rule" in decision
@@ -89,14 +90,11 @@ def test_scaling_modes_and_config_override():
     )
     assert np.isclose(explicit[0], 0.13) and "config" in decision
 
-    try:
+    with pytest.raises(ValueError, match="unknown reflectance mode"):
         _reflectance(dn, "red", {}, {"reflectance": {"mode": "bogus"}}, acquisition)
-        assert False
-    except ValueError:
-        pass
 
 
-def _fake_build(red_dn, nir_dn, mode, scene_raster, stac_properties=None):
+def _fake_build(red_dn, nir_dn, mode, scene_raster, stac_properties=None, reflectance_extra=None):
     import tempfile
 
     import forestwatch.data.download as dl
@@ -123,10 +121,11 @@ def _fake_build(red_dn, nir_dn, mode, scene_raster, stac_properties=None):
             "raster": scene_raster,
             "stac_properties": stac_properties or {},
         }
+        reflectance = {"mode": mode, **(reflectance_extra or {})}
         cfg = {
             "region": {"crs": "EPSG:32643", "bbox": [0, 0, 1, 1], "resolution_m": 10},
             "cloud_mask": {"valid_scl_classes": [4, 5, 6, 7]},
-            "reflectance": {"mode": mode},
+            "reflectance": reflectance,
         }
         with tempfile.TemporaryDirectory() as tmp:
             path, meta = dl.build_scene_stack(scene, cfg, tmp)
@@ -136,7 +135,7 @@ def _fake_build(red_dn, nir_dn, mode, scene_raster, stac_properties=None):
         dl.read_band, dl.make_target_grid = saved
 
 
-def test_build_scene_stack_records_per_band_scaling_and_stac_provenance():
+def test_build_scene_stack_fails_closed_on_conflicting_metadata():
     red = np.full((10, 10), 800, dtype="float32")
     nir = np.full((10, 10), 2500, dtype="float32")
     declared = {band: {"scale": 0.0001, "offset": -0.1} for band in ("red", "nir", "swir22")}
@@ -144,7 +143,20 @@ def test_build_scene_stack_records_per_band_scaling_and_stac_provenance():
         "s2:processing_baseline": "04.00",
         "earthsearch:boa_offset_applied": False,
     }
-    arrays, meta = _fake_build(red, nir, "auto", declared, properties)
+    with pytest.raises(ValueError, match="metadata conflict"):
+        _fake_build(red, nir, "auto", declared, properties)
+
+
+def test_build_scene_stack_records_scaling_and_stac_provenance_when_explicitly_overridden():
+    red = np.full((10, 10), 800, dtype="float32")
+    nir = np.full((10, 10), 2500, dtype="float32")
+    declared = {band: {"scale": 0.0001, "offset": -0.1} for band in ("red", "nir", "swir22")}
+    properties = {
+        "s2:processing_baseline": "04.00",
+        "earthsearch:boa_offset_applied": False,
+    }
+    arrays, meta = _fake_build(red, nir, "none", declared, properties)
     assert np.isclose(np.median(arrays["red"]), 0.08)
-    assert "boa_offset_applied=false" in meta["reflectance_scaling"]["red"]
+    assert "mode none" in meta["reflectance_scaling"]["red"]
     assert meta["stac_properties"] == properties
+    assert meta["reflectance_metadata_conflict"] is False
