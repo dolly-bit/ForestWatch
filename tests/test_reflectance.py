@@ -45,7 +45,7 @@ def test_auto_flag_true_means_offset_is_already_applied():
     assert "offset=0" in decision
 
 
-def test_auto_flag_false_applies_catalog_offset():
+def test_auto_flag_false_rejects_ambiguous_calibration():
     from forestwatch.data.download import _reflectance
 
     dn = np.array([1300.0, 5000.0])
@@ -53,19 +53,17 @@ def test_auto_flag_false_applies_catalog_offset():
         "raster": {"red": {"scale": 0.0001, "offset": -0.1}},
         "stac_properties": {"earthsearch:boa_offset_applied": False},
     }
-    result, decision = _reflectance(dn, "red", scene, {}, date(2024, 1, 1))
-    assert np.allclose(result, [0.03, 0.4])
-    assert "offset=-0.1" in decision
+    with pytest.raises(ValueError, match="ambiguous"):
+        _reflectance(dn, "red", scene, {}, date(2024, 1, 1))
 
 
-def test_auto_uses_catalog_when_earth_search_flag_is_missing():
+def test_auto_missing_flag_rejects_unverified_calibration():
     from forestwatch.data.download import _reflectance
 
     dn = np.array([1300.0])
     scene = {"raster": {"red": {"scale": 0.0001, "offset": -0.1}}}
-    result, decision = _reflectance(dn, "red", scene, {}, date(2024, 1, 1))
-    assert np.isclose(result[0], 0.03)
-    assert "flag unavailable" in decision
+    with pytest.raises(ValueError, match="missing"):
+        _reflectance(dn, "red", scene, {}, date(2024, 1, 1))
 
 
 def test_scaling_modes_and_config_override():
@@ -73,8 +71,8 @@ def test_scaling_modes_and_config_override():
 
     dn, acquisition = np.array([1300.0]), date(2024, 1, 1)
     scene = {"raster": {"red": {"scale": 0.0001, "offset": -0.1}}}
-    auto, decision = _reflectance(dn, "red", scene, {}, acquisition)
-    assert np.isclose(auto[0], 0.03) and "catalog" in decision
+    with pytest.raises(ValueError, match="missing"):
+        _reflectance(dn, "red", scene, {}, acquisition)
 
     no_offset, decision = _reflectance(dn, "red", scene, {"reflectance": {"mode": "none"}}, acquisition)
     assert np.isclose(no_offset[0], 0.13) and "no additional offset" in decision
@@ -82,8 +80,8 @@ def test_scaling_modes_and_config_override():
     legacy, decision = _reflectance(dn, "red", scene, {"reflectance": {"mode": "date_rule"}}, acquisition)
     assert np.isclose(legacy[0], 0.03) and "date_rule" in decision
 
-    fallback, decision = _reflectance(dn, "nir", {}, {}, acquisition)
-    assert np.isclose(fallback[0], 0.03) and "fallback" in decision
+    with pytest.raises(ValueError, match="missing"):
+        _reflectance(dn, "nir", {}, {}, acquisition)
 
     explicit, decision = _reflectance(
         dn, "nir", {}, {"reflectance": {"boa_add_offset": 0}}, acquisition
@@ -135,7 +133,7 @@ def _fake_build(red_dn, nir_dn, mode, scene_raster, stac_properties=None, reflec
         dl.read_band, dl.make_target_grid = saved
 
 
-def test_build_scene_stack_fails_closed_on_conflicting_metadata():
+def test_build_scene_stack_fails_closed_on_ambiguous_metadata():
     red = np.full((10, 10), 800, dtype="float32")
     nir = np.full((10, 10), 2500, dtype="float32")
     declared = {band: {"scale": 0.0001, "offset": -0.1} for band in ("red", "nir", "swir22")}
@@ -143,7 +141,7 @@ def test_build_scene_stack_fails_closed_on_conflicting_metadata():
         "s2:processing_baseline": "04.00",
         "earthsearch:boa_offset_applied": False,
     }
-    with pytest.raises(ValueError, match="metadata conflict"):
+    with pytest.raises(ValueError, match="ambiguous"):
         _fake_build(red, nir, "auto", declared, properties)
 
 
@@ -159,4 +157,5 @@ def test_build_scene_stack_records_scaling_and_stac_provenance_when_explicitly_o
     assert np.isclose(np.median(arrays["red"]), 0.08)
     assert "mode none" in meta["reflectance_scaling"]["red"]
     assert meta["stac_properties"] == properties
-    assert meta["reflectance_metadata_conflict"] is False
+    assert "reflectance_metadata_conflict" not in meta
+    assert meta["red_zero_fraction"] == 1.0
