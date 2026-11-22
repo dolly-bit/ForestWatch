@@ -47,6 +47,11 @@ for window_name in cfg["windows"]:
 
     catalog_path = ROOT / "data" / "raw" / f"catalog_{window_name}.json"
     catalog = json.loads(catalog_path.read_text())
+    if args.scaling == "auto" and any("stac_properties" not in scene for scene in catalog):
+        sys.exit(
+            f"{catalog_path.name} uses the old catalog format and lacks preserved STAC properties. "
+            "Run python scripts/search_scenes.py again before using auto calibration."
+        )
     if args.date:
         catalog = [scene for scene in catalog if scene["datetime"].startswith(args.date)]
 
