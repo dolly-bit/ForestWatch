@@ -9,7 +9,9 @@ Run a one-scene trial first:
   date_rule  legacy date-based -1000 DN correction
 
 Duplicate processing versions are filtered before download (highest version kept).
-Exact-zero red share is printed as a diagnostic; it does not select calibration.
+Exact-zero red share is printed as a diagnostic only. In auto mode, only a True
+Earth Search BOA flag is accepted; False or missing flags require an explicit,
+independently validated calibration override.
 """
 import argparse
 import json
