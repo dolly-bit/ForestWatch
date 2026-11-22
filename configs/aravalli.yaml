@@ -1,6 +1,6 @@
 # ForestWatch Phase 1 configuration.
 # The bbox is a PLACEHOLDER near the Gurugram-Faridabad Aravalli belt.
-# Open it in QGIS/Copernicus Browser and adjust before downloading anything.
+# Validate the study area and date windows before downloading the full dataset.
 region:
   name: aravalli_ncr_demo
   bbox: [77.10, 28.30, 77.30, 28.48]   # lon_min, lat_min, lon_max, lat_max (EPSG:4326)
@@ -22,6 +22,11 @@ cloud_mask:
   # Sentinel-2 SCL classes treated as usable: 4 vegetation, 5 bare, 6 water, 7 unclassified
   valid_scl_classes: [4, 5, 6, 7]
   min_valid_observations: 2            # per pixel, to accept a composite value
+
+reflectance:
+  mode: auto
+  # Used only when Earth Search BOA metadata and raster scale/offset are unavailable.
+  # boa_add_offset: 0
 
 baseline:
   forest_ndvi_min: 0.40                # pixel must have been vegetated before
