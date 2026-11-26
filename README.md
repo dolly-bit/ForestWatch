@@ -31,15 +31,23 @@ Satellite-based **vegetation-loss monitoring** for the Aravalli range (Delhi NCR
 
 ## 2. Real data
     pip install -e ".[geo]"
-    # edit configs/aravalli.yaml: bbox + the two same-season date windows (check in QGIS first)
-    python scripts/search_scenes.py         # catalogs -> data/raw/
-    python scripts/build_stacks.py          # stacks -> data/stacks/{before,after}/   (test on ONE scene first)
+    # review the study-area bbox and date windows in configs/aravalli.yaml
+    python scripts/search_scenes.py         # refresh catalogs with preserved STAC item properties
+    # first run a one-scene trial in an isolated output folder
+    python scripts/build_stacks.py --window before --date 2022-10-16 --limit 1 --out-root data/stacks_test
+    # inspect the stack JSON sidecar and reflectance values before the full build
+    python scripts/build_stacks.py          # stacks -> data/stacks/{before,after}/
     python scripts/run_baseline.py          # baseline change map (+ scores if labels exist)
-    # label in QGIS (polygons of clear vegetation -> cleared land), export GeoJSON, then:
+    # prepare vegetation-loss polygons as GeoJSON with a Python geospatial workflow or annotation tool
     python scripts/make_labels.py data/labels/my_polygons.geojson
     python scripts/evaluate.py              # frozen TEST blocks: baseline +/- seasonal filter (+ U-Net)
 
-## 3. Train the U-Net (needs labels)
+### Label quality
+The label rasterizer accepts GeoJSON polygons. Keep annotation provenance documented,
+do not derive ground-truth labels from the model's own predictions, and maintain the
+spatial train/validation/test split.
+
+## 3. Train the U-Net (needs reviewed labels)
     pip install -e ".[ml]"                  # torch; use a GPU or free Colab/Kaggle for speed
     python scripts/train_unet.py            # saves models/unet_change.pt + learning-curve CSV
     python scripts/evaluate.py              # now includes U-Net rows
@@ -58,7 +66,17 @@ Full stack (Postgres + Redis + worker + web):
     # Needs data/stacks/{before,after}/*.npz on the host first.
 
 ## Method notes
-- Same-season windows (e.g. Oct-Dec of two years) avoid dry-season leaf-drop false alarms.
+- Same-season windows (e.g. Oct-Dec of two years) reduce seasonal leaf-drop confounding.
+- Duplicate processing versions are filtered before download; the highest version is retained.
+- Reflectance calibration preserves the Earth Search BOA flag and raster scale/offset metadata,
+  then records the selected rule per band in each stack's JSON sidecar.
+- In auto mode, only `earthsearch:boa_offset_applied=true` is accepted: the asset scale is
+  applied with no additional offset. A false or missing flag is rejected as ambiguous; raster
+  scale/offset and acquisition date alone are not treated as proof of the correct correction.
+- For ambiguous scenes, validate the original Sentinel-2 product metadata independently before
+  setting `reflectance.boa_add_offset` in the config or selecting an explicit non-auto mode.
+  The explicit override is recorded in the stack sidecar; it is not an automatic fallback.
+- Exact-zero red share is retained as a diagnostic only. It does not validate or select calibration.
 - Split: contiguous groups of blocks (+ buffer) per train/val/test. Scattered random blocks plus a buffer
   left almost no training data (see tests/test_phase2.py).
 - Baseline "confidence" is a heuristic NDVI-drop score; U-Net confidence is the mean model probability.
@@ -77,9 +95,10 @@ Run `pytest` after `pip install -e ".[dev,api,ml]"` to exercise the untested Pyt
 issues on the first real run: paste errors and iterate.
 
 ## Verify before relying on
-STAC catalog URL and asset names (red/nir/swir22/scl), the 2022 reflectance offset, data licences and terms,
-OSM tile usage policy for the basemap (use a proper tile provider if you deploy), package versions in
-frontend/package.json.
+- Study-area bbox and whether it represents the intended Aravalli area.
+- STAC catalog URL, asset names (red/nir/swir22/scl), processing metadata and reflectance calibration.
+- Real imagery quality, acquisition coverage, label provenance and independent evaluation.
+- Data licences and terms, basemap tile usage policy, and deployed package versions.
 
 ## Next steps
 Before/after image slider, PostGIS geometry column, Sentinel-1 fusion (optional), model calibration,
